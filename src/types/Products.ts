@@ -10,6 +10,9 @@ export type TProduct = {
   imageSrc: string;
   primaryFor: string;
   currency: string;
+  currencySymbol: string;
   previewType: PreviewType;
   src: string;
+  brand: string;
+  portal: string;
 };

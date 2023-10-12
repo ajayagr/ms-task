@@ -114,6 +114,8 @@ const imageType = [
   PreviewType.wide,
   PreviewType.normal,
 ];
+const brandArray = ["Macy's", "H&M", "Bajaj", "GAP", "Levi's", "Dyson"];
+const portalArray = ["Amazon", "Flipkart", "Tata Neu"];
 
 export const generateRandomObjects = (): TProduct[] => {
   const obj: TProduct[] = [];
@@ -141,12 +143,15 @@ export const generateRandomObjects = (): TProduct[] => {
       categories,
       for: tempForArray,
       currency: "USD",
+      currencySymbol: "$",
       imageSrc: `img${i + 1}.jpeg`,
       previewType:
         imageType[Math.round(Math.random() * (imageType.length - 1))],
       primaryFor:
         tempForArray[Math.round(Math.random() * (tempForArray.length - 1))],
       src: "https://www.amazon.com",
+      brand: brandArray[Math.round(Math.random() * (brandArray.length - 1))],
+      portal: portalArray[Math.round(Math.random() * (portalArray.length - 1))],
     });
   }
   return obj;
