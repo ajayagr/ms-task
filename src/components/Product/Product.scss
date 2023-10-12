@@ -1,0 +1,38 @@
+.product {
+  padding: 0 10px;
+  background-color: white;
+
+  a {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+
+    .img-container {
+      flex-grow: 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &.item {
+    &-tall {
+      grid-row-end: span 2;
+      img {
+        aspect-ratio: 1 / 2;
+      }
+    }
+
+    &-wide {
+      grid-column-end: span 2;
+      img {
+        aspect-ratio: 2 /1;
+      }
+    }
+  }
+}
