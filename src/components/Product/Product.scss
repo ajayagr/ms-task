@@ -18,6 +18,9 @@
   }
 
   &.item {
+    grid-row-end: span 1;
+    grid-column-end: span 1;
+
     &-tall {
       grid-row-end: span 2;
       img {

@@ -21,7 +21,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
   }
   const linkDescriptionId = `product-${product.id}`;
   return (
-    <div className={`product tile ${itemClass}`}>
+    <div className={`product tile item ${itemClass}`}>
       <a
         href={product.src}
         aria-labelledby={linkDescriptionId}
