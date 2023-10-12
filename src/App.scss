@@ -1,0 +1,21 @@
+.carousel-container {
+  display: flex;
+  gap: 2rem;
+  background: #f0f0f0;
+
+  .action {
+    align-self: center;
+    font-size: x-large;
+  }
+}
+
+.product-grid {
+  height: 100%;
+  flex-grow: 1;
+  display: grid;
+  grid-auto-flow: column dense;
+  grid-template-columns: repeat(10, minmax(150px, 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 8px;
+  overflow: hidden;
+}
