@@ -1,0 +1,91 @@
+.card,
+.tile {
+  padding: 0 10px;
+  background-color: white;
+}
+
+.card {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.tile {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.text-strikethrough {
+  text-decoration: line-through;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-primary-light {
+  color: grey;
+}
+
+.text-lg {
+  font-size: large;
+}
+
+.text-xl {
+  font-size: x-large;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  &:hover {
+    border-color: #646cff;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  &.no-style {
+    border-radius: none;
+    background: none;
+    padding: 0;
+
+    &:hover {
+      border-color: none;
+    }
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

@@ -22,6 +22,10 @@ function App() {
     }
   };
 
+  const handleSearchFor = (target: string) => {
+    console.log(target);
+  };
+
   return (
     <main className="carousel-container">
       <div className="action">
@@ -34,7 +38,11 @@ function App() {
       </div>
       <div ref={gridRef} className="product-grid">
         {products.map((product) => (
-          <Product product={product} key={product.id} />
+          <Product
+            product={product}
+            key={product.id}
+            handleSearchFor={handleSearchFor}
+          />
         ))}
       </div>
       <div className="action">

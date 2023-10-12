@@ -1,7 +1,4 @@
 .product {
-  padding: 0 10px;
-  background-color: white;
-
   a {
     display: flex;
     height: 100%;
@@ -34,5 +31,10 @@
         aspect-ratio: 2 /1;
       }
     }
+  }
+
+  .product-detail {
+    padding: 4px;
+    opacity: 1;
   }
 }

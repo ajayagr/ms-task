@@ -1,12 +1,15 @@
+import { Tooltip } from "react-tooltip";
 import { PreviewType } from "../../constants/product";
 import { TProduct } from "../../types/Products";
 import "./Product.scss";
+import ProductDetail from "./ProductDetail/ProductDetail";
 
 export interface IProductProps {
   product: TProduct;
+  handleSearchFor: (target: string) => void;
 }
 
-const Product = ({ product }: IProductProps) => {
+function Product({ product, handleSearchFor }: IProductProps) {
   let itemClass = "item";
   let imgName = "img-normal";
   if (product.previewType === PreviewType.tall) {
@@ -18,13 +21,17 @@ const Product = ({ product }: IProductProps) => {
   }
   const linkDescriptionId = `product-${product.id}`;
   return (
-    <div className={`product ${itemClass}`}>
-      <a href={product.src} aria-labelledby={linkDescriptionId}>
+    <div className={`product tile ${itemClass}`}>
+      <a
+        href={product.src}
+        aria-labelledby={linkDescriptionId}
+        id={linkDescriptionId}
+      >
         <div className="img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
         </div>
         <p>{product.portal}</p>
-        <p>
+        <p className="text-bold">
           {product.currencySymbol}
           {product.MRP - product.discount}
         </p>
@@ -32,8 +39,20 @@ const Product = ({ product }: IProductProps) => {
       <p hidden id={linkDescriptionId}>
         Link to {product.name}
       </p>
+      <Tooltip
+        anchorSelect={`#${linkDescriptionId}`}
+        className="product-detail"
+        place="left"
+        clickable
+      >
+        <ProductDetail
+          product={product}
+          imgName={imgName}
+          handleSearchFor={handleSearchFor}
+        />
+      </Tooltip>
     </div>
   );
-};
+}
 
 export default Product;
