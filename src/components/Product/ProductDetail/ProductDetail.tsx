@@ -25,7 +25,7 @@ function ProductDetail({
         </div>
         <p>{product.name}</p>
         {product.discount > 0 ? (
-          <p className="text-strikethrough text-primary-light">
+          <p className="text-strikethrough text-grey">
             {product.currencySymbol}
             {product.MRP}
           </p>

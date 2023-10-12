@@ -25,7 +25,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
       <a
         href={product.src}
         aria-labelledby={linkDescriptionId}
-        id={linkDescriptionId}
+        id={`${linkDescriptionId}-link`}
       >
         <div className="img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
@@ -40,7 +40,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
         Link to {product.name}
       </p>
       <Tooltip
-        anchorSelect={`#${linkDescriptionId}`}
+        anchorSelect={`#${linkDescriptionId}-link`}
         className="product-detail"
         place="left"
         clickable

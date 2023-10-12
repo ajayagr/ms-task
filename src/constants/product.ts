@@ -6,7 +6,7 @@ export enum Category {
   Appliances = "Appliances",
 }
 
-export enum For {
+export enum ForCategories {
   Men = "Men",
   Women = "Women",
   Kids = "Kids",
@@ -19,3 +19,5 @@ export enum PreviewType {
   tall,
   wide,
 }
+
+export const PRICE_SLIDER_STEPS = 5;

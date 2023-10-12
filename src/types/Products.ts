@@ -16,3 +16,9 @@ export type TProduct = {
   brand: string;
   portal: string;
 };
+
+export type TProductFilters = {
+  category: string;
+  forCategory: string;
+  price: number;
+};

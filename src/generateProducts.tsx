@@ -1,4 +1,4 @@
-import { Category, For, PreviewType } from "./constants/product";
+import { Category, ForCategories, PreviewType } from "./constants/product";
 import { TProduct } from "./types/Products";
 
 const sampleProduct = [
@@ -101,7 +101,13 @@ const categoriesArray = [
   Category.Electronics,
   Category.Appliances,
 ];
-const forArray = [For.Men, For.Women, For.Kids, For.Elderly, For.Friends];
+const forArray = [
+  ForCategories.Men,
+  ForCategories.Women,
+  ForCategories.Kids,
+  ForCategories.Elderly,
+  ForCategories.Friends,
+];
 const imageType = [
   PreviewType.normal,
   PreviewType.normal,
@@ -126,7 +132,7 @@ export const generateRandomObjects = (): TProduct[] => {
     const forCount = Math.trunc(Math.random() * 2) + 1;
 
     const categories: Category[] = [];
-    const tempForArray: For[] = [];
+    const tempForArray: ForCategories[] = [];
 
     for (let j = 0; j < categoryCount; j++) {
       categories.push(categoriesArray[Math.round(Math.random() * 4)]);

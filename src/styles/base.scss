@@ -13,6 +13,9 @@
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.text-uppercase {
+  text-transform: uppercase;
+}
 
 .text-strikethrough {
   text-decoration: line-through;
@@ -30,8 +33,12 @@
   color: white;
 }
 
-.text-primary-light {
+.text-grey {
   color: grey;
+}
+
+.text-sm {
+  font-size: smaller;
 }
 
 .text-lg {
@@ -42,8 +49,56 @@
   font-size: x-large;
 }
 
-.hidden {
+.d-none {
   display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex {
+  &-wrap {
+    flex-wrap: wrap;
+  }
+
+  &-row {
+    flex-direction: row;
+  }
+
+  &-col {
+    flex-direction: column;
+  }
+}
+
+.align-center {
+  align-items: center;
+}
+
+.m {
+  &t-1 {
+    margin-top: 1rem;
+  }
+  &b-1 {
+    margin-bottom: 1rem;
+  }
+  &l-1 {
+    margin-left: 1rem;
+  }
+  &r-1 {
+    margin-right: 1rem;
+  }
+  &x-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  &y-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  &-1 {
+    margin: 1rem 1rem;
+  }
 }
 
 button {
