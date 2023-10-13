@@ -5,43 +5,29 @@ import ProductGridHeader from "./ProductGridHeader/ProductGridHeader";
 import products from "../../assets/products.json";
 import "./ProductGrid.scss";
 import { TProduct, TProductFilters } from "../../types/Products";
-
-const filterProducts = (
-  products: TProduct[],
-  filters: TProductFilters
-): TProduct[] => {
-  const filteredProducts = [...products];
-  return filteredProducts.filter((product) => {
-    let meetsFilterCriteria = true;
-    meetsFilterCriteria &&= filters.category
-      ? product.categories.includes(filters.category)
-      : true;
-    meetsFilterCriteria &&= filters.forCategory
-      ? product.for.includes(filters.forCategory)
-      : true;
-    meetsFilterCriteria &&= filters.price
-      ? product.MRP - product.discount <= filters.price
-      : true;
-    return meetsFilterCriteria;
-  });
-};
+import useProductGrid from "../../hooks/useProductGrid";
 
 function ProductGrid() {
   const gridRef = useRef<HTMLDivElement>(null);
   const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
   const [nextActionDisabled, setNextActionDisbabled] = useState(false);
-  const [filteredProducts, setFilteredProducts] =
-    useState<TProduct[]>(products);
-  const [filters, setFilters] = useState<TProductFilters>({
-    category: "",
-    forCategory: "",
-    price: 0,
-  });
+  const { filteredProducts, filters, updateFilters } = useProductGrid(products);
+  // const [filteredProducts, setFilteredProducts] =
+  //   useState<TProduct[]>(products);
+  // const [filters, setFilters] = useState<TProductFilters>({
+  //   category: "",
+  //   forCategory: "",
+  //   price: 0,
+  // });
 
+  // const handleFilterUpdate = (newFilters: Partial<TProductFilters>) => {
+  //   const updatedFilters = { ...filters, ...newFilters };
+  //   setFilters(updatedFilters);
+  //   setFilteredProducts(filterProducts(products, updatedFilters));
+  //   setTimeout(() => updateGridAction(), 1000);
+  // };
   const handleFilterUpdate = (newFilters: Partial<TProductFilters>) => {
-    const updatedFilters = { ...filters, ...newFilters };
-    setFilters(updatedFilters);
-    setFilteredProducts(filterProducts(products, updatedFilters));
+    updateFilters(newFilters);
     setTimeout(() => updateGridAction(), 1000);
   };
 
