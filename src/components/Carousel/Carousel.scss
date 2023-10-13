@@ -1,0 +1,12 @@
+.carousel-container {
+  display: flex;
+  background: #f0f0f0;
+  width: 100vw;
+  gap: 1rem;
+  justify-content: space-between;
+
+  .action {
+    align-self: center;
+    font-size: large;
+  }
+}
