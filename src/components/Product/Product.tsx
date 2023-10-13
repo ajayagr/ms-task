@@ -42,7 +42,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
       <Tooltip
         anchorSelect={`#${linkDescriptionId}-link`}
         className="product-detail"
-        place="top-start"
+        place={product.previewType === PreviewType.tall ? "left" : "top-start"}
         clickable
       >
         <ProductDetail
