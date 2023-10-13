@@ -105,7 +105,7 @@ function ProductFilters({
               >
                 <input
                   hidden
-                  checked={isSelected}
+                  aria-checked={isSelected}
                   name="productFor"
                   type="radio"
                   value={category}
