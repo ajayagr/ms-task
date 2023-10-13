@@ -39,12 +39,12 @@ function ProductDetail({
         <p className="text-success">{product.brand}</p>
       </a>
       <div className="more">
-        <p>See more {product.primaryFor} gifts</p>
         <button
-          className="no-style text-white text-lg"
+          className="d-flex no-style text-white w-100 justify-space-between align-center"
           onClick={() => handleSearchFor(product.primaryFor)}
         >
-          &gt;
+          <p>See more {product.primaryFor} gifts</p>
+          <span className="text-lg">&gt;</span>
         </button>
       </div>
       <p hidden id={labelDescriptionId}>

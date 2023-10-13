@@ -101,7 +101,11 @@ function ProductFilters({
               id="productFor-all"
               onChange={handleForSelection}
             />
-            <label className="d-flex flex-col" htmlFor={"productFor-all"}>
+            <label
+              className="d-flex flex-col"
+              htmlFor={"productFor-all"}
+              tabIndex={0}
+            >
               <All
                 width={32}
                 height={32}
@@ -129,7 +133,11 @@ function ProductFilters({
                   id={categoryId}
                   onChange={handleForSelection}
                 />
-                <label className="d-flex flex-col" htmlFor={categoryId}>
+                <label
+                  className="d-flex flex-col"
+                  htmlFor={categoryId}
+                  tabIndex={0}
+                >
                   <All
                     width={32}
                     height={32}
