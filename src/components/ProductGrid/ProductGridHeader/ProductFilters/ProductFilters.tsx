@@ -1,4 +1,4 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, MouseEvent, useEffect, useState } from "react";
 import { TProductFilters } from "../../../../types/Products";
 import "./ProductFilters.scss";
 import { PRICE_SLIDER_STEPS } from "../../../../constants/product";
@@ -29,9 +29,11 @@ function ProductFilters({
     setSelectedForOption(filters?.forCategory ?? "");
   }, [filters]);
 
-  const handleForSelection = (e: ChangeEvent<HTMLInputElement>) => {
-    const selectedValue = e.target.value;
-    setSelectedForOption(e.target.value);
+  const handleForSelection = (e: MouseEvent<HTMLElement>) => {
+    const target = e.target as HTMLInputElement;
+    const selectedValue =
+      target.value === selectedForOption ? "" : target.value;
+    setSelectedForOption(selectedValue);
     handleFilterUpdate({ forCategory: selectedValue });
   };
 
@@ -91,29 +93,6 @@ function ProductFilters({
       <div>
         <p className="text-uppercase text-grey">Gift for</p>
         <div role="radiogroup" className="d-flex">
-          <div className={selectedForOption === "" ? "checked" : ""}>
-            <input
-              hidden
-              checked={selectedForOption === ""}
-              name="productFor"
-              type="radio"
-              value=""
-              id="productFor-all"
-              onChange={handleForSelection}
-            />
-            <label
-              className="d-flex flex-col"
-              htmlFor={"productFor-all"}
-              tabIndex={0}
-            >
-              <All
-                width={32}
-                height={32}
-                fill={selectedForOption === "" ? "orangered" : "black"}
-              />
-              <span>All</span>
-            </label>
-          </div>
           {forCategories.map((category) => {
             const categoryId = `productFor-${category}`;
             const isSelected = selectedForOption === category;
@@ -131,7 +110,7 @@ function ProductFilters({
                   type="radio"
                   value={category}
                   id={categoryId}
-                  onChange={handleForSelection}
+                  onClick={handleForSelection}
                 />
                 <label
                   className="d-flex flex-col"
