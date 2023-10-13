@@ -28,6 +28,8 @@ const filterProducts = (
 
 function ProductGrid() {
   const gridRef = useRef<HTMLDivElement>(null);
+  const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
+  const [nextActionDisabled, setNextActionDisbabled] = useState(false);
   const [filteredProducts, setFilteredProducts] =
     useState<TProduct[]>(products);
   const [filters, setFilters] = useState<TProductFilters>({
@@ -40,20 +42,33 @@ function ProductGrid() {
     const updatedFilters = { ...filters, ...newFilters };
     setFilters(updatedFilters);
     setFilteredProducts(filterProducts(products, updatedFilters));
+    setTimeout(() => updateGridAction(), 1000);
   };
 
   const handleCarouselAction = (action: 1 | -1) => {
     if (action === 1) {
-      if (gridRef?.current) {
-        gridRef.current.scrollLeft += 200;
+      if (gridRef.current) {
+        gridRef.current.scrollLeft += gridRef.current.clientWidth - 50;
       }
     } else {
-      if (gridRef?.current) {
+      if (gridRef.current) {
         gridRef.current.scrollLeft =
-          gridRef.current.scrollLeft - 200 < 0
+          gridRef.current.scrollLeft - (gridRef.current.clientWidth - 50) < 0
             ? 0
-            : gridRef.current.scrollLeft - 200;
+            : gridRef.current.scrollLeft - (gridRef.current.clientWidth - 50);
       }
+    }
+    setTimeout(() => updateGridAction(), 500);
+  };
+
+  const updateGridAction = () => {
+    if (gridRef.current) {
+      const previousActionDisabled = gridRef.current.scrollLeft === 0;
+      const nextActionDisabled =
+        gridRef.current.scrollLeft + gridRef.current.clientWidth >=
+        gridRef.current.scrollWidth;
+      setPreviousActionDisabled(previousActionDisabled);
+      setNextActionDisbabled(nextActionDisabled);
     }
   };
 
@@ -66,6 +81,7 @@ function ProductGrid() {
       <div className="carousel-container">
         <div className="action">
           <button
+            disabled={previousActionDisabled}
             aria-description="Previous products"
             onClick={() => handleCarouselAction(-1)}
           >
@@ -78,18 +94,29 @@ function ProductGrid() {
             filters={filters}
             handleFilterUpdate={handleFilterUpdate}
           />
-          <div ref={gridRef} className="items">
-            {filteredProducts.map((product) => (
-              <Product
-                product={product}
-                key={product.id}
-                handleSearchFor={handleSearchFor}
-              />
-            ))}
+          <div className="item-container">
+            {filteredProducts.length > 0 ? (
+              <div ref={gridRef} className="items">
+                {filteredProducts.map((product) => (
+                  <Product
+                    product={product}
+                    key={product.id}
+                    handleSearchFor={handleSearchFor}
+                  />
+                ))}
+              </div>
+            ) : (
+              <h3>
+                No products match your filter criteria. Please update or reset
+                the criteria to see more products!!
+              </h3>
+            )}
           </div>
         </div>
+
         <div className="action">
           <button
+            disabled={nextActionDisabled}
             aria-description="Next products"
             onClick={() => handleCarouselAction(1)}
           >

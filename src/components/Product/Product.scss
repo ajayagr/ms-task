@@ -8,12 +8,16 @@
 
     .img-container {
       flex-grow: 1;
+      align-items: center;
+      justify-content: center;
     }
   }
 
   img {
     width: 100%;
     height: 100%;
+    max-width: 300px;
+    max-height: 400px;
     object-fit: contain;
   }
 
@@ -23,16 +27,10 @@
 
     &-tall {
       grid-row-end: span 2;
-      img {
-        aspect-ratio: 1 / 2;
-      }
     }
 
     &-wide {
       grid-column-end: span 2;
-      img {
-        aspect-ratio: 2 /1;
-      }
     }
   }
 

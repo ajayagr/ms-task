@@ -21,13 +21,13 @@ function Product({ product, handleSearchFor }: IProductProps) {
   }
   const linkDescriptionId = `product-${product.id}`;
   return (
-    <div className={`product tile item ${itemClass}`}>
+    <div className={`product tile ${itemClass}`}>
       <a
         href={product.src}
         aria-labelledby={linkDescriptionId}
         id={`${linkDescriptionId}-link`}
       >
-        <div className="img-container">
+        <div className="d-flex img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
         </div>
         <p>{product.portal}</p>

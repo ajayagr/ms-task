@@ -112,6 +112,10 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 
+  &:hover:disabled {
+    border-color: transparent;
+  }
+
   &:hover {
     border-color: #646cff;
   }
@@ -129,6 +133,10 @@ button {
     &:hover {
       border-color: none;
     }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
   }
 }
 
