@@ -16,7 +16,7 @@ function useCarousel(ref: RefObject<HTMLElement>) {
             : ref.current.scrollLeft - (ref.current.clientWidth - 50);
       }
     }
-    setTimeout(() => updateGridAction(), 500);
+    setTimeout(() => updateGridAction(), 1000);
   };
 
   const updateGridAction = () => {
