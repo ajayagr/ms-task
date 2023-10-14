@@ -1,17 +1,23 @@
 import { RefObject, useState } from "react";
 
+export type TCarouselSwipeData = {
+  xPos?: number;
+  yPos?: number;
+};
+
 const DEFAULT_SLIDE_OFFSET = 100;
 export enum CarouselAction {
-  Left,
-  Right,
+  Previous,
+  Next,
 }
 
 function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
   const offset = slideOffset ?? DEFAULT_SLIDE_OFFSET;
   const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
   const [nextActionDisabled, setNextActionDisbabled] = useState(false);
+
   const handleCarouselAction = (action: CarouselAction) => {
-    if (action === CarouselAction.Right) {
+    if (action === CarouselAction.Next) {
       if (ref.current) {
         ref.current.scrollLeft += ref.current.clientWidth - offset;
       }
@@ -24,6 +30,18 @@ function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
       }
     }
     setTimeout(() => updateGridAction(), 1000);
+  };
+
+  const slideCarousel = ({ xPos, yPos }: TCarouselSwipeData) => {
+    if (xPos) {
+      if (ref.current) {
+        ref.current.scrollLeft += xPos;
+      }
+    } else if (yPos) {
+      if (ref.current) {
+        ref.current.scrollTop += yPos;
+      }
+    }
   };
 
   const updateGridAction = () => {
@@ -41,6 +59,7 @@ function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
     previousActionDisabled,
     nextActionDisabled,
     handleCarouselAction,
+    slideCarousel,
     updateGridAction,
   };
 }

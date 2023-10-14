@@ -13,6 +13,10 @@
     width: 60px;
     height: 50px;
   }
+
+  .content {
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (min-width: $tablet-min-width) {

@@ -42,7 +42,8 @@ function ProductGrid({ products }: IProductGridProps) {
       />
       <Carousel
         carouselContentRef={gridRef}
-        slideOffset={150}
+        slideOffset={140}
+        swipeable={true}
         ref={carouselRef}
       >
         <div className="grid-container">
