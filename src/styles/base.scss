@@ -24,6 +24,10 @@
   text-decoration: line-through;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 .text-bold {
   font-weight: bold;
 }
@@ -56,6 +60,10 @@
   font-size: x-large;
 }
 
+.text-align-end {
+  text-align: end;
+}
+
 .d-none {
   display: none;
 }
@@ -82,6 +90,10 @@
   align-items: center;
 }
 
+.pt-1 {
+  padding-top: 1rem;
+}
+
 .m {
   &t-1 {
     margin-top: 1rem;
@@ -106,6 +118,13 @@
   &-1 {
     margin: 1rem 1rem;
   }
+  &l-auto {
+    margin-left: auto;
+  }
+}
+
+.pr-1 {
+  padding-right: 1rem;
 }
 
 .w-100 {
@@ -153,12 +172,12 @@ button {
   }
 
   &.no-style {
-    border-radius: none;
+    border-radius: 0;
     background: none;
     padding: 0;
 
     &:hover {
-      border-color: none;
+      border-color: unset;
     }
   }
 

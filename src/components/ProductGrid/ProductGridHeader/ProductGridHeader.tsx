@@ -20,8 +20,8 @@ function ProductGridHeader({
   const maxPrice = Math.max(...priceArray);
 
   return (
-    <div className="d-flex flex-wrap product-grid-header">
-      <h2>Christmas Gifts</h2>
+    <div className="d-flex flex-wrap my-1 product-grid-header">
+      <h2 className="my-1">Christmas Gifts</h2>
       <ProductFilters
         minPrice={minPrice}
         maxPrice={maxPrice}

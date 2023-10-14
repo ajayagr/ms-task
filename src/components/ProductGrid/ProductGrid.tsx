@@ -7,6 +7,7 @@ import Carousel, { CarouselRef } from "../Carousel/Carousel";
 
 // import products from "../../assets/products.json";
 import "./ProductGrid.scss";
+import { DEFAULT_FILTERS } from "../../hooks/useProductGrid";
 
 interface IProductGridProps {
   products: TProduct[];
@@ -26,6 +27,10 @@ function ProductGrid({ products }: IProductGridProps) {
     handleFilterUpdate({ forCategory });
   };
 
+  const resetFilters = () => {
+    handleFilterUpdate({ ...DEFAULT_FILTERS });
+  };
+
   return (
     <div className="product-grid">
       <Carousel
@@ -40,20 +45,29 @@ function ProductGrid({ products }: IProductGridProps) {
             handleFilterUpdate={handleFilterUpdate}
           />
           <div className="item-container">
+            <p className="product-count">
+              showing {filteredProducts.length} of {products.length} products
+            </p>
             {filteredProducts.length > 0 ? (
               <div ref={gridRef} className="items">
                 {filteredProducts.map((product) => (
                   <Product
-                    product={product}
                     key={product.id}
+                    product={product}
                     handleSearchFor={handleSearchFor}
                   />
                 ))}
               </div>
             ) : (
               <h3>
-                No products match your filter criteria. Please update or reset
-                the criteria to see more products!!
+                No products match your filter criteria. Please update or{" "}
+                <button
+                  className="no-style text-underline"
+                  onClick={resetFilters}
+                >
+                  reset
+                </button>
+                {""} the criteria to see more products!!
               </h3>
             )}
           </div>

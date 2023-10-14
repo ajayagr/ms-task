@@ -19,6 +19,7 @@ function ProductDetail({
         className="card"
         href={product.src}
         aria-labelledby={labelDescriptionId}
+        tabIndex={-1}
       >
         <div className="img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
@@ -45,6 +46,7 @@ function ProductDetail({
         <button
           className="d-flex no-style text-white w-100 justify-space-between align-center"
           onClick={() => handleSearchFor(product.primaryFor)}
+          tabIndex={-1}
         >
           <p>See more {product.primaryFor} gifts</p>
           <span className="text-lg">&gt;</span>

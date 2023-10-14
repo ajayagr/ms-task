@@ -1,3 +1,5 @@
+import { TABLET_MIN_WIDTH } from "../constants/domConstants";
+
 export function isElementCompletelyVisible(element: HTMLElement) {
   // Get the element's position and dimensions
   const elementRect = element.getBoundingClientRect();
@@ -16,4 +18,11 @@ export function isElementCompletelyVisible(element: HTMLElement) {
     elementRect.right <= viewportWidth;
 
   return isCompletelyVisible;
+}
+
+export function isSmallScreen() {
+  if (window.innerWidth < TABLET_MIN_WIDTH) {
+    return true;
+  }
+  return false;
 }

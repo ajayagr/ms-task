@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { TProduct, TProductFilters } from "../types/Products";
 
+export const DEFAULT_FILTERS = {
+  category: "",
+  forCategory: "",
+  price: 0,
+};
+
 function useProductGrid(products: TProduct[]) {
   const [filteredProducts, setFilteredProducts] =
     useState<TProduct[]>(products);
   const [filters, setFilters] = useState<TProductFilters>({
-    category: "",
-    forCategory: "",
-    price: 0,
+    ...DEFAULT_FILTERS,
   });
 
   const filterProducts = (

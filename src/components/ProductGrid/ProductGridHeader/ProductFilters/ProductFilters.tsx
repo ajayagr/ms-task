@@ -6,6 +6,8 @@ import {
   PRICE_SLIDER_STEPS,
 } from "../../../../constants/product";
 import Icon from "../../../../assets/icons/Icon";
+import HamburgerIcon from "../../../../assets/icons/Hamburger";
+import { isSmallScreen } from "../../../../utils/domUtils";
 
 interface IProductFiltersProps {
   minPrice: number;
@@ -24,6 +26,8 @@ function ProductFilters({
   filters,
   handleFilterUpdate,
 }: IProductFiltersProps) {
+  const [smallScreen] = useState(isSmallScreen());
+  const [showFilters, setShowFilters] = useState(!smallScreen);
   const [selectedCategoryOption, setSelectedCategoryOption] = useState("");
   const [selectedForOption, setSelectedForOption] = useState("");
   const [selectedPrice, setSelectedPrice] = useState(0);
@@ -31,6 +35,10 @@ function ProductFilters({
   useEffect(() => {
     setSelectedForOption(filters?.forCategory ?? "");
   }, [filters]);
+
+  const toggleFilters = () => {
+    setShowFilters(!showFilters);
+  };
 
   const handleForKeyboardSelection = (
     keyPressed: string,
@@ -78,104 +86,122 @@ function ProductFilters({
   }
 
   return (
-    <form
-      className="d-flex flex-wrap product-filters mw-100 text-sm"
-      onReset={handleFormReset}
-    >
-      <div className="d-flex flex-col">
-        <label
-          className="text-uppercase text-grey mb-1"
-          htmlFor="trending-selection"
-        >
-          Select Category
-        </label>
-        <div className="custom-select">
-          <select
-            id="trending-selection"
-            value={selectedCategoryOption}
-            onChange={handleCategorySelection}
+    <div className="d-flex flex-col product-filters">
+      {smallScreen && (
+        <div className="mb-1">
+          <button
+            className="d-flex justify-center align-center no-style"
+            onClick={toggleFilters}
           >
-            <option value={""}>All</option>
-            {categories.map((category) => (
-              <option value={category} key={category}>
-                {category}
-              </option>
-            ))}
-          </select>
+            <HamburgerIcon width={32} height={32} />{" "}
+            <span>{showFilters ? " Hide Filters" : " Show Filters"}</span>
+          </button>
         </div>
-      </div>
-      <div className="mw-100">
-        <p className="text-uppercase text-grey">Gift for</p>
-        <div role="radiogroup" className="d-flex flex-wrap">
-          {forCategories.map((category: string) => {
-            const categoryId = `productFor-${category}`;
-            const isSelected = selectedForOption === category;
-            return (
-              <div key={categoryId}>
-                <input
-                  hidden
-                  aria-checked={isSelected}
-                  name="productFor"
-                  type="radio"
-                  value={category}
-                  id={categoryId}
-                  onClick={(e) =>
-                    handleForSelection((e.target as HTMLInputElement).value)
-                  }
-                />
-                <label
-                  className={`d-flex flex-col align-center justify-center ${
-                    isSelected ? "checked" : ""
-                  }`}
-                  htmlFor={categoryId}
-                  tabIndex={0}
-                  onKeyDown={(e) => handleForKeyboardSelection(e.key, category)}
-                >
-                  <Icon
-                    iconName={ForCategoryIcon[category]}
-                    props={{
-                      width: 32,
-                      height: 32,
-                      color: isSelected ? "orangered" : "black",
-                    }}
+      )}
+      <form
+        className={`d-flex mw-100 text-sm filters ${
+          showFilters ? "show" : "hide"
+        }`}
+        aria-hidden={showFilters ? "false" : "true"}
+        onReset={handleFormReset}
+      >
+        <div className="d-flex flex-col">
+          <label
+            className="text-uppercase text-grey mb-1"
+            htmlFor="trending-selection"
+          >
+            Select Category
+          </label>
+          <div className="custom-select">
+            <select
+              id="trending-selection"
+              value={selectedCategoryOption}
+              onChange={handleCategorySelection}
+            >
+              <option value={""}>All</option>
+              {categories.map((category) => (
+                <option value={category} key={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+        <div className="mw-100">
+          <p className="text-uppercase text-grey">Gift for</p>
+          <div role="radiogroup" className="d-flex flex-wrap">
+            {forCategories.map((category: string) => {
+              const categoryId = `productFor-${category}`;
+              const isSelected = selectedForOption === category;
+              return (
+                <div key={categoryId}>
+                  <input
+                    hidden
+                    aria-checked={isSelected}
+                    name="productFor"
+                    type="radio"
+                    value={category}
+                    id={categoryId}
+                    onClick={(e) =>
+                      handleForSelection((e.target as HTMLInputElement).value)
+                    }
                   />
-                  <span>{category}</span>
-                </label>
-              </div>
-            );
-          })}
+                  <label
+                    className={`d-flex flex-col align-center justify-center ${
+                      isSelected ? "checked" : ""
+                    }`}
+                    htmlFor={categoryId}
+                    tabIndex={0}
+                    onKeyDown={(e) =>
+                      handleForKeyboardSelection(e.key, category)
+                    }
+                  >
+                    <Icon
+                      iconName={ForCategoryIcon[category]}
+                      props={{
+                        width: 32,
+                        height: 32,
+                        color: isSelected ? "orangered" : "black",
+                      }}
+                    />
+                    <span>{category}</span>
+                  </label>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
-      <div>
-        <label className="text-uppercase text-grey" htmlFor="priceSelection">
-          Set Price
-        </label>
-        <br />
-        <input
-          type="range"
-          id="priceSelection"
-          name="priceSelection"
-          list="markers"
-          min={minPrice}
-          max={maxPrice}
-          value={selectedPrice}
-          step={priceStep}
-          onChange={handlePriceSelection}
-        />
-        <datalist id="markers">
-          {markers.map((marker, i) => (
-            <option
-              key={i}
-              value={marker}
-              label={`$${Math.round(marker).toString()}`}
-            ></option>
-          ))}
-        </datalist>
-      </div>
-      <div className="d-flex align-center">
-        <button type="reset">Reset</button>
-      </div>
-    </form>
+        <div>
+          <label className="text-uppercase text-grey" htmlFor="priceSelection">
+            Set Price
+          </label>
+          <br />
+          <input
+            type="range"
+            id="priceSelection"
+            name="priceSelection"
+            list="markers"
+            min={minPrice}
+            max={maxPrice}
+            value={selectedPrice}
+            step={priceStep}
+            onChange={handlePriceSelection}
+          />
+          <datalist id="markers">
+            {markers.map((marker, i) => (
+              <option
+                key={i}
+                value={marker}
+                label={`$${Math.round(marker).toString()}`}
+              ></option>
+            ))}
+          </datalist>
+        </div>
+        <div className="d-flex align-center">
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </div>
   );
 }
 

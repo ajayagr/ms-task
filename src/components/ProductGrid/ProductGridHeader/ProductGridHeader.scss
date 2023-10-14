@@ -2,12 +2,10 @@
 
 .product-grid-header {
   flex-direction: column;
-  margin: 1rem 0;
 }
 
 @media screen and (min-width: $tablet-min-width) {
   .product-grid-header {
-    row-gap: 1rem;
     column-gap: 3rem;
     flex-direction: row;
     align-items: center;
