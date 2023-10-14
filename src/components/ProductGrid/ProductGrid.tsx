@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import Product from "../Product/Product";
 import ProductGridHeader from "./ProductGridHeader/ProductGridHeader";
 import { TProduct, TProductFilters } from "../../types/Products";
@@ -8,6 +8,7 @@ import Carousel, { CarouselRef } from "../Carousel/Carousel";
 // import products from "../../assets/products.json";
 import "./ProductGrid.scss";
 import { DEFAULT_FILTERS } from "../../hooks/useProductGrid";
+import { ViewportContext } from "../../context";
 
 interface IProductGridProps {
   products: TProduct[];
@@ -16,6 +17,7 @@ interface IProductGridProps {
 function ProductGrid({ products }: IProductGridProps) {
   const gridRef = useRef<HTMLDivElement>(null);
   const carouselRef = useRef<CarouselRef>(null);
+  const isSmallScreen = useContext(ViewportContext).isSmallScreen;
   const { filteredProducts, filters, updateFilters } = useProductGrid(products);
 
   const handleFilterUpdate = (newFilters: Partial<TProductFilters>) => {
@@ -54,6 +56,7 @@ function ProductGrid({ products }: IProductGridProps) {
                   <Product
                     key={product.id}
                     product={product}
+                    showDetail={!isSmallScreen}
                     handleSearchFor={handleSearchFor}
                   />
                 ))}

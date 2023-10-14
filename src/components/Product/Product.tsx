@@ -7,10 +7,11 @@ import { isElementCompletelyVisible } from "../../utils/domUtils";
 
 export interface IProductProps {
   product: TProduct;
+  showDetail: boolean;
   handleSearchFor: (target: string) => void;
 }
 
-function Product({ product, handleSearchFor }: IProductProps) {
+function Product({ product, showDetail, handleSearchFor }: IProductProps) {
   let itemClass = "item";
   let imgName = "img-normal";
   if (product.previewType === PreviewType.tall) {
@@ -58,9 +59,10 @@ function Product({ product, handleSearchFor }: IProductProps) {
         Link to {product.name}
       </p>
       <Tooltip
-        anchorSelect={`#${linkDescriptionId}-link`}
         className="product-detail"
+        anchorSelect={`#${linkDescriptionId}-link`}
         place={product.previewType === PreviewType.tall ? "left" : "top-start"}
+        hidden={!showDetail}
         clickable
       >
         <ProductDetail

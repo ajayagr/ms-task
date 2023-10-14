@@ -1,4 +1,4 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { ChangeEvent, useContext, useEffect, useState } from "react";
 import { TProductFilters } from "../../../../types/Products";
 import "./ProductFilters.scss";
 import {
@@ -7,7 +7,7 @@ import {
 } from "../../../../constants/product";
 import Icon from "../../../../assets/icons/Icon";
 import HamburgerIcon from "../../../../assets/icons/Hamburger";
-import { isSmallScreen } from "../../../../utils/domUtils";
+import { ViewportContext } from "../../../../context";
 
 interface IProductFiltersProps {
   minPrice: number;
@@ -26,8 +26,13 @@ function ProductFilters({
   filters,
   handleFilterUpdate,
 }: IProductFiltersProps) {
-  const [smallScreen] = useState(isSmallScreen());
-  const [showFilters, setShowFilters] = useState(!smallScreen);
+  const viewportContext = useContext(ViewportContext);
+  const [showHamburger, setShowHamburger] = useState(
+    viewportContext.isSmallScreen
+  );
+  const [showFilters, setShowFilters] = useState(
+    !viewportContext.isSmallScreen
+  );
   const [selectedCategoryOption, setSelectedCategoryOption] = useState("");
   const [selectedForOption, setSelectedForOption] = useState("");
   const [selectedPrice, setSelectedPrice] = useState(0);
@@ -35,6 +40,17 @@ function ProductFilters({
   useEffect(() => {
     setSelectedForOption(filters?.forCategory ?? "");
   }, [filters]);
+
+  useEffect(() => {
+    const isSmallScreen = viewportContext.isSmallScreen;
+    setShowHamburger(isSmallScreen);
+    if (!showHamburger && isSmallScreen) {
+      setShowFilters(false);
+    } else if (showHamburger && !showFilters) {
+      setShowFilters(true);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [viewportContext.isSmallScreen]);
 
   const toggleFilters = () => {
     setShowFilters(!showFilters);
@@ -87,7 +103,7 @@ function ProductFilters({
 
   return (
     <div className="d-flex flex-col product-filters">
-      {smallScreen && (
+      {showHamburger && (
         <div className="mb-1">
           <button
             className="d-flex justify-center align-center no-style"
