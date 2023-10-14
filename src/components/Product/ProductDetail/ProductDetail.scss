@@ -1,5 +1,5 @@
 .product-detail {
-  max-width: 300px;
+  max-width: 350px;
   max-height: 500px;
 
   .more {
@@ -22,7 +22,11 @@
     width: 100%;
     height: 100%;
     max-width: 350px;
-    max-height: 300px;
+    max-height: 350px;
     object-fit: contain;
+  }
+
+  .product-info {
+    margin-top: 4px;
   }
 }

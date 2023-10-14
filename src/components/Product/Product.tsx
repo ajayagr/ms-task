@@ -3,6 +3,7 @@ import { PreviewType } from "../../constants/product";
 import { TProduct } from "../../types/Products";
 import "./Product.scss";
 import ProductDetail from "./ProductDetail/ProductDetail";
+import { isElementCompletelyVisible } from "../../utils/domUtils";
 
 export interface IProductProps {
   product: TProduct;
@@ -20,21 +21,38 @@ function Product({ product, handleSearchFor }: IProductProps) {
     imgName = "img-wide";
   }
   const linkDescriptionId = `product-${product.id}`;
+  const discountPercentage = Math.round((product.discount / product.MRP) * 100);
+
+  const handleFocus = (e: React.FocusEvent<HTMLAnchorElement>) => {
+    const productTile = e.target.parentElement;
+    const isProductVisible =
+      (productTile && isElementCompletelyVisible(productTile)) ?? false;
+    if (!isProductVisible) {
+      productTile?.scrollIntoView();
+    }
+  };
+
   return (
     <div className={`product tile ${itemClass}`}>
       <a
         href={product.src}
         aria-labelledby={linkDescriptionId}
         id={`${linkDescriptionId}-link`}
+        onFocus={handleFocus}
       >
         <div className="d-flex img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
         </div>
-        <p>{product.name}</p>
-        <p className="text-bold">
-          {product.currencySymbol}
-          {product.MRP - product.discount}
-        </p>
+        <div className="product-info">
+          <p>{product.name}</p>
+          <p className="text-bold">
+            {product.currencySymbol}
+            {product.MRP - product.discount}
+            <span className="text-success">
+              {discountPercentage > 0 ? ` (-${discountPercentage}%)` : ""}
+            </span>
+          </p>
+        </div>
       </a>
       <p hidden id={linkDescriptionId}>
         Link to {product.name}

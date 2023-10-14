@@ -23,20 +23,23 @@ function ProductDetail({
         <div className="img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
         </div>
-        <p>{product.name}</p>
-        {product.discount > 0 ? (
-          <p className="text-strikethrough text-grey">
+        <div className="product-info">
+          <p>{product.name}</p>
+
+          <p className="text-bold">
             {product.currencySymbol}
-            {product.MRP}
+            {product.MRP - product.discount}{" "}
+            {product.discount > 0 ? (
+              <span className="text-strikethrough text-grey">
+                ({product.currencySymbol}
+                {product.MRP})
+              </span>
+            ) : (
+              <></>
+            )}
           </p>
-        ) : (
-          <></>
-        )}
-        <p className="text-bold">
-          {product.currencySymbol}
-          {product.MRP - product.discount}
-        </p>
-        <p className="text-success">{product.brand}</p>
+          <p className="text-success">{product.brand}</p>
+        </div>
       </a>
       <div className="more">
         <button
