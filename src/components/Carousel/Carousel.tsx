@@ -10,6 +10,7 @@ import "./Carousel.scss";
 
 interface ICarouselProps extends PropsWithChildren {
   carouselContentRef: RefObject<HTMLElement>;
+  slideOffset?: number;
 }
 
 export type CarouselRef = {
@@ -17,13 +18,13 @@ export type CarouselRef = {
 };
 
 const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
-  const { carouselContentRef, children } = props;
+  const { carouselContentRef, slideOffset, children } = props;
   const {
     previousActionDisabled,
     nextActionDisabled,
     handleCarouselAction,
     updateGridAction,
-  } = useCarousel(carouselContentRef);
+  } = useCarousel(carouselContentRef, slideOffset);
 
   useImperativeHandle(ref, () => ({
     triggerGridUpdate() {

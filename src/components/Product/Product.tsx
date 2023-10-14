@@ -30,7 +30,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
         <div className="d-flex img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
         </div>
-        <p>{product.portal}</p>
+        <p>{product.name}</p>
         <p className="text-bold">
           {product.currencySymbol}
           {product.MRP - product.discount}

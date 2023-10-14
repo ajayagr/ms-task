@@ -24,7 +24,11 @@ function ProductGrid() {
 
   return (
     <div className="product-grid">
-      <Carousel carouselContentRef={gridRef} ref={carouselRef}>
+      <Carousel
+        carouselContentRef={gridRef}
+        slideOffset={150}
+        ref={carouselRef}
+      >
         <div className="grid-container">
           <ProductGridHeader
             products={products}

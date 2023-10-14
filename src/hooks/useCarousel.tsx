@@ -1,19 +1,22 @@
 import { RefObject, useState } from "react";
 
-function useCarousel(ref: RefObject<HTMLElement>) {
+const DEFAULT_SLIDE_OFFSET = 100;
+
+function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
+  const offset = slideOffset ?? DEFAULT_SLIDE_OFFSET;
   const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
   const [nextActionDisabled, setNextActionDisbabled] = useState(false);
   const handleCarouselAction = (action: 1 | -1) => {
     if (action === 1) {
       if (ref.current) {
-        ref.current.scrollLeft += ref.current.clientWidth - 50;
+        ref.current.scrollLeft += ref.current.clientWidth - offset;
       }
     } else {
       if (ref.current) {
         ref.current.scrollLeft =
-          ref.current.scrollLeft - (ref.current.clientWidth - 50) < 0
+          ref.current.scrollLeft - (ref.current.clientWidth - offset) < 0
             ? 0
-            : ref.current.scrollLeft - (ref.current.clientWidth - 50);
+            : ref.current.scrollLeft - (ref.current.clientWidth - offset);
       }
     }
     setTimeout(() => updateGridAction(), 1000);
