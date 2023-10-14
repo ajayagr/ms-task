@@ -35,17 +35,17 @@ function ProductGrid({ products }: IProductGridProps) {
 
   return (
     <div className="product-grid">
+      <ProductGridHeader
+        products={products}
+        filters={filters}
+        handleFilterUpdate={handleFilterUpdate}
+      />
       <Carousel
         carouselContentRef={gridRef}
         slideOffset={150}
         ref={carouselRef}
       >
         <div className="grid-container">
-          <ProductGridHeader
-            products={products}
-            filters={filters}
-            handleFilterUpdate={handleFilterUpdate}
-          />
           <div className="item-container">
             <p className="product-count">
               showing {filteredProducts.length} of {products.length} products

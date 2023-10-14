@@ -1,7 +1,8 @@
-@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
 
 .product-grid {
   display: flex;
+  background: #f0f0f0;
   flex-direction: column;
 
   .grid-container {

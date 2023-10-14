@@ -30,9 +30,7 @@ function ProductFilters({
   const [showHamburger, setShowHamburger] = useState(
     viewportContext.isSmallScreen
   );
-  const [showFilters, setShowFilters] = useState(
-    !viewportContext.isSmallScreen
-  );
+  const [showFilters, setShowFilters] = useState(!showHamburger);
   const [selectedCategoryOption, setSelectedCategoryOption] = useState("");
   const [selectedForOption, setSelectedForOption] = useState("");
   const [selectedPrice, setSelectedPrice] = useState(0);
@@ -44,9 +42,9 @@ function ProductFilters({
   useEffect(() => {
     const isSmallScreen = viewportContext.isSmallScreen;
     setShowHamburger(isSmallScreen);
-    if (!showHamburger && isSmallScreen) {
+    if (showHamburger === false && isSmallScreen) {
       setShowFilters(false);
-    } else if (showHamburger && !showFilters) {
+    } else if (!isSmallScreen) {
       setShowFilters(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -4,7 +4,7 @@ import {
   forwardRef,
   useImperativeHandle,
 } from "react";
-import useCarousel from "../../hooks/useCarousel";
+import useCarousel, { CarouselAction } from "../../hooks/useCarousel";
 
 import "./Carousel.scss";
 
@@ -38,7 +38,7 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
         <button
           disabled={previousActionDisabled}
           aria-description="Previous products"
-          onClick={() => handleCarouselAction(-1)}
+          onClick={() => handleCarouselAction(CarouselAction.Left)}
         >
           &lt;
         </button>
@@ -48,7 +48,7 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
         <button
           disabled={nextActionDisabled}
           aria-description="Next products"
-          onClick={() => handleCarouselAction(1)}
+          onClick={() => handleCarouselAction(CarouselAction.Right)}
         >
           &gt;
         </button>

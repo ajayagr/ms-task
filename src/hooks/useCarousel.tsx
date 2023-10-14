@@ -1,13 +1,17 @@
 import { RefObject, useState } from "react";
 
 const DEFAULT_SLIDE_OFFSET = 100;
+export enum CarouselAction {
+  Left,
+  Right,
+}
 
 function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
   const offset = slideOffset ?? DEFAULT_SLIDE_OFFSET;
   const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
   const [nextActionDisabled, setNextActionDisbabled] = useState(false);
-  const handleCarouselAction = (action: 1 | -1) => {
-    if (action === 1) {
+  const handleCarouselAction = (action: CarouselAction) => {
+    if (action === CarouselAction.Right) {
       if (ref.current) {
         ref.current.scrollLeft += ref.current.clientWidth - offset;
       }
