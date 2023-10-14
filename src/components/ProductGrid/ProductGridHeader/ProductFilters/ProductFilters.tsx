@@ -79,7 +79,7 @@ function ProductFilters({
 
   return (
     <form
-      className="d-flex flex-wrap product-filters text-sm"
+      className="d-flex flex-wrap product-filters mw-100 text-sm"
       onReset={handleFormReset}
     >
       <div className="d-flex flex-col">
@@ -95,6 +95,7 @@ function ProductFilters({
             value={selectedCategoryOption}
             onChange={handleCategorySelection}
           >
+            <option value={""}>All</option>
             {categories.map((category) => (
               <option value={category} key={category}>
                 {category}
@@ -103,9 +104,9 @@ function ProductFilters({
           </select>
         </div>
       </div>
-      <div>
+      <div className="mw-100">
         <p className="text-uppercase text-grey">Gift for</p>
-        <div role="radiogroup" className="d-flex">
+        <div role="radiogroup" className="d-flex flex-wrap">
           {forCategories.map((category: string) => {
             const categoryId = `productFor-${category}`;
             const isSelected = selectedForOption === category;
@@ -172,9 +173,7 @@ function ProductFilters({
         </datalist>
       </div>
       <div className="d-flex align-center">
-        <button type="reset" className="ml-1">
-          Reset
-        </button>
+        <button type="reset">Reset</button>
       </div>
     </form>
   );

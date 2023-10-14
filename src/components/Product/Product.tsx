@@ -23,7 +23,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
   const linkDescriptionId = `product-${product.id}`;
   const discountPercentage = Math.round((product.discount / product.MRP) * 100);
 
-  const handleFocus = (e: React.FocusEvent<HTMLAnchorElement>) => {
+  const handleProductFocus = (e: React.FocusEvent<HTMLAnchorElement>) => {
     const productTile = e.target.parentElement;
     const isProductVisible =
       (productTile && isElementCompletelyVisible(productTile)) ?? false;
@@ -38,7 +38,7 @@ function Product({ product, handleSearchFor }: IProductProps) {
         href={product.src}
         aria-labelledby={linkDescriptionId}
         id={`${linkDescriptionId}-link`}
-        onFocus={handleFocus}
+        onFocus={handleProductFocus}
       >
         <div className="d-flex img-container">
           <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />

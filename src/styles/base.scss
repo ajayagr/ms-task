@@ -1,4 +1,5 @@
 @import "./select.scss";
+@import "./breakpoints.scss";
 
 .card,
 .tile {
@@ -25,6 +26,10 @@
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-black {
+  color: black;
 }
 
 .text-success {
@@ -107,6 +112,10 @@
   width: 100%;
 }
 
+.mw-100 {
+  max-width: 100%;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -163,9 +172,9 @@ button {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
+  // a:hover {
+  //   color: #747bff;
+  // }
   button {
     background-color: #f9f9f9;
   }
