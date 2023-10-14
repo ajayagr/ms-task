@@ -1,8 +1,11 @@
-import { ChangeEvent, MouseEvent, useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import { TProductFilters } from "../../../../types/Products";
 import "./ProductFilters.scss";
-import { PRICE_SLIDER_STEPS } from "../../../../constants/product";
-import All from "../../../../assets/icons/All";
+import {
+  ForCategoryIcon,
+  PRICE_SLIDER_STEPS,
+} from "../../../../constants/product";
+import Icon from "../../../../assets/icons/Icon";
 
 interface IProductFiltersProps {
   minPrice: number;
@@ -29,10 +32,18 @@ function ProductFilters({
     setSelectedForOption(filters?.forCategory ?? "");
   }, [filters]);
 
-  const handleForSelection = (e: MouseEvent<HTMLElement>) => {
-    const target = e.target as HTMLInputElement;
+  const handleForKeyboardSelection = (
+    keyPressed: string,
+    selectedOption: string
+  ) => {
+    if (keyPressed === "Enter") {
+      handleForSelection(selectedOption);
+    }
+  };
+
+  const handleForSelection = (selectedOption: string) => {
     const selectedValue =
-      target.value === selectedForOption ? "" : target.value;
+      selectedOption === selectedForOption ? "" : selectedOption;
     setSelectedForOption(selectedValue);
     handleFilterUpdate({ forCategory: selectedValue });
   };
@@ -78,31 +89,28 @@ function ProductFilters({
         >
           Select Category
         </label>
-        <select
-          id="trending-selection"
-          value={selectedCategoryOption}
-          onChange={handleCategorySelection}
-        >
-          {categories.map((category) => (
-            <option value={category} key={category}>
-              {category}
-            </option>
-          ))}
-        </select>
+        <div className="custom-select">
+          <select
+            id="trending-selection"
+            value={selectedCategoryOption}
+            onChange={handleCategorySelection}
+          >
+            {categories.map((category) => (
+              <option value={category} key={category}>
+                {category}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
       <div>
         <p className="text-uppercase text-grey">Gift for</p>
         <div role="radiogroup" className="d-flex">
-          {forCategories.map((category) => {
+          {forCategories.map((category: string) => {
             const categoryId = `productFor-${category}`;
             const isSelected = selectedForOption === category;
             return (
-              <div
-                key={categoryId}
-                className={
-                  isSelected ? "d-flex flex-col checked" : "d-flex flex-col"
-                }
-              >
+              <div key={categoryId}>
                 <input
                   hidden
                   aria-checked={isSelected}
@@ -110,17 +118,25 @@ function ProductFilters({
                   type="radio"
                   value={category}
                   id={categoryId}
-                  onClick={handleForSelection}
+                  onClick={(e) =>
+                    handleForSelection((e.target as HTMLInputElement).value)
+                  }
                 />
                 <label
-                  className="d-flex flex-col"
+                  className={`d-flex flex-col align-center justify-center ${
+                    isSelected ? "checked" : ""
+                  }`}
                   htmlFor={categoryId}
                   tabIndex={0}
+                  onKeyDown={(e) => handleForKeyboardSelection(e.key, category)}
                 >
-                  <All
-                    width={32}
-                    height={32}
-                    fill={isSelected ? "orangered" : "black"}
+                  <Icon
+                    iconName={ForCategoryIcon[category]}
+                    props={{
+                      width: 32,
+                      height: 32,
+                      color: isSelected ? "orangered" : "black",
+                    }}
                   />
                   <span>{category}</span>
                 </label>

@@ -20,4 +20,12 @@ export enum PreviewType {
   wide,
 }
 
+export const ForCategoryIcon: Record<string, string> = {
+  Men: "men",
+  Women: "women",
+  Kids: "kids",
+  Elderly: "elderly",
+  Friends: "friends",
+};
+
 export const PRICE_SLIDER_STEPS = 5;

@@ -1,3 +1,5 @@
+@import "./select.scss";
+
 .card,
 .tile {
   padding: 0 10px;
@@ -103,6 +105,10 @@
 
 .w-100 {
   width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-space-between {

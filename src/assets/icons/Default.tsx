@@ -1,6 +1,6 @@
 import { SVGAttributes } from "react";
 
-const All = (props: SVGAttributes<SVGElement>) => (
+const Default = (props: SVGAttributes<SVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
     <g data-name="Layer 2">
       <path
@@ -10,4 +10,4 @@ const All = (props: SVGAttributes<SVGElement>) => (
     </g>
   </svg>
 );
-export default All;
+export default Default;

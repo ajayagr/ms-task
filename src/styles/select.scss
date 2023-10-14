@@ -1,0 +1,33 @@
+.custom-select {
+  min-width: 200px;
+  position: relative;
+
+  select {
+    --select-border-size: 0.3rem;
+    appearance: none;
+    width: 100%;
+    padding: 0.675em 3em 0.675em 1em;
+    background-color: #fff;
+    border: 1px solid #caced1;
+    border-radius: 0.25rem;
+    color: #000;
+    cursor: pointer;
+
+    option {
+      padding: 0.25rem;
+    }
+  }
+
+  &::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    transition: 500ms;
+  }
+
+  &:focus-within::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
