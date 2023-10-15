@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { TProduct, TProductFilters } from "../types/Products";
 
 export const DEFAULT_FILTERS = {
@@ -13,6 +13,12 @@ function useProductGrid(products: TProduct[]) {
   const [filters, setFilters] = useState<TProductFilters>({
     ...DEFAULT_FILTERS,
   });
+
+  useEffect(() => {
+    resetFilters();
+    setFilteredProducts(products);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [products]);
 
   const filterProducts = (
     products: TProduct[],
@@ -40,7 +46,11 @@ function useProductGrid(products: TProduct[]) {
     setFilteredProducts(filterProducts(products, updatedFilters));
   };
 
-  return { filteredProducts, filters, updateFilters };
+  const resetFilters = () => {
+    updateFilters(DEFAULT_FILTERS);
+  };
+
+  return { filteredProducts, filters, updateFilters, resetFilters };
 }
 
 export default useProductGrid;

@@ -17,6 +17,7 @@ interface ICarouselProps extends PropsWithChildren {
 
 export type CarouselRef = {
   triggerGridUpdate: () => void;
+  resetScroll: () => void;
 };
 
 const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
@@ -24,6 +25,7 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
   const {
     previousActionDisabled,
     nextActionDisabled,
+    scrollToStart,
     handleCarouselAction,
     slideCarousel,
     updateGridAction,
@@ -40,6 +42,9 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
   useImperativeHandle(ref, () => ({
     triggerGridUpdate() {
       updateGridAction();
+    },
+    resetScroll() {
+      scrollToStart();
     },
   }));
 

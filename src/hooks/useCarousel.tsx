@@ -16,6 +16,20 @@ function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
   const [previousActionDisabled, setPreviousActionDisabled] = useState(true);
   const [nextActionDisabled, setNextActionDisbabled] = useState(false);
 
+  const scrollToStart = () => {
+    if (ref.current) {
+      ref.current.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+      console.log(ref.current.scrollLeft, ref.current.scrollTop);
+    }
+  };
+
+  const scrollToEnd = () => {
+    if (ref.current) {
+      ref.current.scrollLeft = ref.current.scrollWidth;
+      ref.current.scrollTop = ref.current.scrollHeight;
+    }
+  };
+
   const handleCarouselAction = (action: CarouselAction) => {
     if (action === CarouselAction.Next) {
       if (ref.current) {
@@ -58,6 +72,8 @@ function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
   return {
     previousActionDisabled,
     nextActionDisabled,
+    scrollToStart,
+    scrollToEnd,
     handleCarouselAction,
     slideCarousel,
     updateGridAction,

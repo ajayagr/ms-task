@@ -1,0 +1,2282 @@
+[
+  {
+    "id": 1,
+    "name": "EcoWater Purify",
+    "MRP": 403,
+    "discount": 198,
+    "categories": ["Trending"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 2,
+    "name": "TechGrip Phone",
+    "MRP": 432,
+    "discount": 164,
+    "categories": ["Electronics"],
+    "for": ["Kids", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1571063769135-f7b6b742db4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1571063769135-f7b6b742db4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 3,
+    "name": "CozyDream Blank",
+    "MRP": 561,
+    "discount": 143,
+    "categories": ["Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 4,
+    "name": "ProChef Knife",
+    "MRP": 112,
+    "discount": 19,
+    "categories": ["Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 5,
+    "name": "EcoPower Solar",
+    "MRP": 715,
+    "discount": 65,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1614159102350-fc3c9eedead5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1614159102350-fc3c9eedead5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 6,
+    "name": "LuxoFit Fitness",
+    "MRP": 815,
+    "discount": 17,
+    "categories": ["Home Décor", "Home Décor"],
+    "for": ["Elderly", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1559056199-96c307526265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1559056199-96c307526265?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 7,
+    "name": "CleanSweep Vac",
+    "MRP": 431,
+    "discount": 138,
+    "categories": ["Home Décor", "Lifestyle", "Home Décor"],
+    "for": ["Friends", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 8,
+    "name": "GloWave Speaker",
+    "MRP": 254,
+    "discount": 34,
+    "categories": ["Electronics"],
+    "for": ["Women", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1654648662327-5d4d32cf67bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1654648662327-5d4d32cf67bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 9,
+    "name": "UltraPlush Pill",
+    "MRP": 180,
+    "discount": 39,
+    "categories": ["Electronics", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652837345706-6a0f9c0148c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652837345706-6a0f9c0148c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 10,
+    "name": "AeroZoom Drone",
+    "MRP": 446,
+    "discount": 18,
+    "categories": ["Electronics", "Appliances", "Home Décor"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1648688135643-2716ec8f4b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1648688135643-2716ec8f4b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 11,
+    "name": "CaféMatic Maker",
+    "MRP": 170,
+    "discount": 3,
+    "categories": ["Lifestyle", "Lifestyle"],
+    "for": ["Kids", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1670201202961-dce15b9e6939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1670201202961-dce15b9e6939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 12,
+    "name": "HydroFlow Bottle",
+    "MRP": 306,
+    "discount": 117,
+    "categories": ["Trending", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 13,
+    "name": "SkyView Telescp",
+    "MRP": 492,
+    "discount": 39,
+    "categories": ["Lifestyle"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1593418441830-572e338bdcd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1593418441830-572e338bdcd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 14,
+    "name": "LuxoLife Perfum",
+    "MRP": 129,
+    "discount": 3,
+    "categories": ["Electronics"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1484704849700-f032a568e944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1484704849700-f032a568e944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 15,
+    "name": "PowerSwift Charg",
+    "MRP": 777,
+    "discount": 155,
+    "categories": ["Electronics", "Lifestyle", "Home Décor"],
+    "for": ["Men", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1650934759380-46ae135476cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1650934759380-46ae135476cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 16,
+    "name": "FrostBite Fridge",
+    "MRP": 548,
+    "discount": 88,
+    "categories": ["Appliances"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1623934619584-5ba1e3801028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1623934619584-5ba1e3801028?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 17,
+    "name": "ArtiCraft Paint",
+    "MRP": 589,
+    "discount": 282,
+    "categories": ["Home Décor", "Lifestyle", "Lifestyle"],
+    "for": ["Elderly", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636297461709-0812290a9dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636297461709-0812290a9dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 18,
+    "name": "ZenMaster Yoga",
+    "MRP": 97,
+    "discount": 43,
+    "categories": ["Lifestyle"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 19,
+    "name": "FrostGuard Cover",
+    "MRP": 840,
+    "discount": 265,
+    "categories": ["Home Décor", "Home Décor", "Home Décor"],
+    "for": ["Friends", "Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 20,
+    "name": "AquaGlow Cream",
+    "MRP": 871,
+    "discount": 297,
+    "categories": ["Appliances", "Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1508296695146-257a814070b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1508296695146-257a814070b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Amazon"
+  },
+  {
+    "id": 21,
+    "name": "FitZone Bike",
+    "MRP": 781,
+    "discount": 56,
+    "categories": ["Lifestyle", "Electronics", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1588186939549-c087e0796efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1588186939549-c087e0796efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 22,
+    "name": "NutriBlitz Blend",
+    "MRP": 591,
+    "discount": 134,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1588959571205-4f53699d31d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1588959571205-4f53699d31d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 23,
+    "name": "SnapFlick Cam",
+    "MRP": 167,
+    "discount": 15,
+    "categories": ["Home Décor", "Lifestyle", "Home Décor"],
+    "for": ["Kids", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1645075960701-573cbc669de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1645075960701-573cbc669de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 24,
+    "name": "FlexiLink Stand",
+    "MRP": 148,
+    "discount": 15,
+    "categories": ["Electronics", "Trending", "Lifestyle"],
+    "for": ["Elderly", "Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1589820933732-5594c9d89076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1589820933732-5594c9d89076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 25,
+    "name": "ChillZone Cooler",
+    "MRP": 566,
+    "discount": 26,
+    "categories": ["Appliances"],
+    "for": ["Women", "Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1577734723294-85de4f1a2c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1577734723294-85de4f1a2c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 26,
+    "name": "SmartSense Ther",
+    "MRP": 839,
+    "discount": 67,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1621962728420-a7328f6ea8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1621962728420-a7328f6ea8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 27,
+    "name": "FireGlow Fireplc",
+    "MRP": 467,
+    "discount": 152,
+    "categories": ["Lifestyle", "Home Décor"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1691480162735-9b91238080f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1691480162735-9b91238080f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 28,
+    "name": "BioFresh Purify",
+    "MRP": 546,
+    "discount": 213,
+    "categories": ["Trending"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1566814534947-46a09bcbb88c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1566814534947-46a09bcbb88c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 29,
+    "name": "MegaView Binocs",
+    "MRP": 786,
+    "discount": 328,
+    "categories": ["Home Décor", "Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 30,
+    "name": "HydroPulse Brush",
+    "MRP": 153,
+    "discount": 76,
+    "categories": ["Home Décor", "Trending", "Lifestyle"],
+    "for": ["Men", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1580437082423-4f0e58a2d413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1580437082423-4f0e58a2d413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 31,
+    "name": "SolarFlare Lght",
+    "MRP": 587,
+    "discount": 125,
+    "categories": ["Electronics"],
+    "for": ["Elderly", "Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1658126392415-811bf97e5d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1658126392415-811bf97e5d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 32,
+    "name": "EcoWash Laundry",
+    "MRP": 713,
+    "discount": 349,
+    "categories": ["Lifestyle", "Electronics", "Lifestyle"],
+    "for": ["Women", "Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1604364184152-f3bd80470c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1604364184152-f3bd80470c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 33,
+    "name": "SwiftSync Watch",
+    "MRP": 700,
+    "discount": 264,
+    "categories": ["Electronics"],
+    "for": ["Men", "Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1632205357771-cd24d88e2f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1632205357771-cd24d88e2f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 34,
+    "name": "GigaMax Bank",
+    "MRP": 157,
+    "discount": 64,
+    "categories": ["Electronics", "Electronics"],
+    "for": ["Kids", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1688789645479-955d294b419f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1688789645479-955d294b419f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 35,
+    "name": "PureTaste Filter",
+    "MRP": 284,
+    "discount": 11,
+    "categories": ["Electronics", "Appliances", "Lifestyle"],
+    "for": ["Men", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Amazon"
+  },
+  {
+    "id": 36,
+    "name": "BriteLite Lamp",
+    "MRP": 401,
+    "discount": 173,
+    "categories": ["Lifestyle", "Lifestyle"],
+    "for": ["Men", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 37,
+    "name": "CleanEase Clean",
+    "MRP": 13,
+    "discount": 2,
+    "categories": ["Trending"],
+    "for": ["Elderly", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1499096382193-ebb232527fee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1499096382193-ebb232527fee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Amazon"
+  },
+  {
+    "id": 38,
+    "name": "NanoFit Earbuds",
+    "MRP": 657,
+    "discount": 91,
+    "categories": ["Trending", "Trending"],
+    "for": ["Elderly", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1620917669809-1af0497965de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1620917669809-1af0497965de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 39,
+    "name": "EcoHeat Heater",
+    "MRP": 283,
+    "discount": 46,
+    "categories": ["Trending", "Electronics", "Electronics"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1556228720-195a672e8a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1556228720-195a672e8a03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 40,
+    "name": "SafeGuard Cam",
+    "MRP": 196,
+    "discount": 93,
+    "categories": ["Electronics", "Electronics", "Electronics"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 41,
+    "name": "WonderFuel Stove",
+    "MRP": 404,
+    "discount": 89,
+    "categories": ["Electronics", "Home Décor", "Electronics"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198745421-a7b409ca6d6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198745421-a7b409ca6d6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 42,
+    "name": "SoundScape Head",
+    "MRP": 819,
+    "discount": 19,
+    "categories": ["Trending", "Electronics", "Trending"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1613187592744-f2c2a911581d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1613187592744-f2c2a911581d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 43,
+    "name": "SkyGaze Station",
+    "MRP": 144,
+    "discount": 59,
+    "categories": ["Electronics"],
+    "for": ["Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 44,
+    "name": "NutriSavor Dehyd",
+    "MRP": 415,
+    "discount": 83,
+    "categories": ["Home Décor"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 45,
+    "name": "MobiSync Charger",
+    "MRP": 596,
+    "discount": 64,
+    "categories": ["Home Décor", "Electronics"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636614178501-e03f25a87516?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636614178501-e03f25a87516?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 46,
+    "name": "H2OBliss Shower",
+    "MRP": 778,
+    "discount": 24,
+    "categories": ["Lifestyle", "Lifestyle", "Electronics"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1578570217134-c86133afdbf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1578570217134-c86133afdbf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 47,
+    "name": "ZenVibe Massgr",
+    "MRP": 424,
+    "discount": 47,
+    "categories": ["Home Décor", "Electronics", "Home Décor"],
+    "for": ["Women", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1677167643883-b4c703a5da35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1677167643883-b4c703a5da35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 48,
+    "name": "ProStyle Dryer",
+    "MRP": 854,
+    "discount": 88,
+    "categories": ["Electronics", "Home Décor"],
+    "for": ["Men", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1613187592744-f2c2a911581d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1613187592744-f2c2a911581d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 49,
+    "name": "SkyPod Drone",
+    "MRP": 655,
+    "discount": 321,
+    "categories": ["Home Décor", "Appliances", "Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1613187433272-9d21d5c9b8e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1613187433272-9d21d5c9b8e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 50,
+    "name": "AquaMate Humid",
+    "MRP": 605,
+    "discount": 249,
+    "categories": ["Trending"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652407819581-4ccc39aab997?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652407819581-4ccc39aab997?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 51,
+    "name": "SnapShot Camera",
+    "MRP": 558,
+    "discount": 56,
+    "categories": ["Home Décor", "Trending"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1603313011101-320f26a4f6f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1603313011101-320f26a4f6f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 52,
+    "name": "PowerFlex Strip",
+    "MRP": 194,
+    "discount": 14,
+    "categories": ["Trending", "Appliances", "Home Décor"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 53,
+    "name": "MaxiLuxe Pack",
+    "MRP": 351,
+    "discount": 117,
+    "categories": ["Home Décor", "Home Décor", "Lifestyle"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 54,
+    "name": "AirWave Fan",
+    "MRP": 238,
+    "discount": 111,
+    "categories": ["Lifestyle"],
+    "for": ["Elderly", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1588959570943-b686e76e5c4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1588959570943-b686e76e5c4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 55,
+    "name": "XtraLite Case",
+    "MRP": 432,
+    "discount": 213,
+    "categories": ["Appliances"],
+    "for": ["Elderly", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 56,
+    "name": "EcoClean Dishwsh",
+    "MRP": 676,
+    "discount": 64,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1634906435560-f1aa50d33fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1634906435560-f1aa50d33fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 57,
+    "name": "SwiftHeat Heater",
+    "MRP": 140,
+    "discount": 5,
+    "categories": ["Appliances", "Lifestyle", "Lifestyle"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1617220377936-6423b02875d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1617220377936-6423b02875d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 58,
+    "name": "ProSculpt Clay",
+    "MRP": 862,
+    "discount": 137,
+    "categories": ["Appliances", "Electronics"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1609357912333-27872db33d5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1609357912333-27872db33d5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 59,
+    "name": "SnoozeGuard Clck",
+    "MRP": 498,
+    "discount": 48,
+    "categories": ["Home Décor", "Home Décor"],
+    "for": ["Elderly", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1627384113944-4822313913c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1627384113944-4822313913c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 60,
+    "name": "MobiMate Holder",
+    "MRP": 829,
+    "discount": 382,
+    "categories": ["Home Décor"],
+    "for": ["Elderly", "Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1641302063626-add5862ed2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1641302063626-add5862ed2fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 61,
+    "name": "GigaSync Router",
+    "MRP": 22,
+    "discount": 6,
+    "categories": ["Trending", "Lifestyle"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 62,
+    "name": "ArtiCraft Book",
+    "MRP": 311,
+    "discount": 71,
+    "categories": ["Home Décor", "Trending", "Home Décor"],
+    "for": ["Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1608979048467-6194dabc6a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1608979048467-6194dabc6a3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 63,
+    "name": "ChillMate Maker",
+    "MRP": 721,
+    "discount": 76,
+    "categories": ["Electronics", "Home Décor", "Home Décor"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1606322296555-9b058f9c9fda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1606322296555-9b058f9c9fda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 64,
+    "name": "FireLite Exting",
+    "MRP": 555,
+    "discount": 108,
+    "categories": ["Lifestyle", "Trending", "Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1616957677033-0e1e2e812272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1616957677033-0e1e2e812272?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 65,
+    "name": "BioGlow Plant",
+    "MRP": 24,
+    "discount": 6,
+    "categories": ["Lifestyle", "Home Décor"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 66,
+    "name": "LuxoLuxe Handbg",
+    "MRP": 515,
+    "discount": 155,
+    "categories": ["Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 67,
+    "name": "NutriWave Juicer",
+    "MRP": 474,
+    "discount": 40,
+    "categories": ["Lifestyle"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1612590838546-42efc879aa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1612590838546-42efc879aa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 68,
+    "name": "CleanSweep Broom",
+    "MRP": 203,
+    "discount": 3,
+    "categories": ["Lifestyle", "Appliances"],
+    "for": ["Elderly", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1634055769490-dc0a9f22826a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1634055769490-dc0a9f22826a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 69,
+    "name": "TechWave Router",
+    "MRP": 570,
+    "discount": 153,
+    "categories": ["Lifestyle", "Appliances"],
+    "for": ["Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 70,
+    "name": "FrostBlock Tray",
+    "MRP": 716,
+    "discount": 249,
+    "categories": ["Lifestyle"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 71,
+    "name": "CaféBlend Beans",
+    "MRP": 150,
+    "discount": 25,
+    "categories": ["Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1686715017969-eda1e207029a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1686715017969-eda1e207029a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 72,
+    "name": "SnoozeMate Mask",
+    "MRP": 662,
+    "discount": 277,
+    "categories": ["Home Décor"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1651194753493-bebd8d241e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1651194753493-bebd8d241e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 73,
+    "name": "ZenTranquil Oil",
+    "MRP": 540,
+    "discount": 219,
+    "categories": ["Lifestyle", "Lifestyle", "Home Décor"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1646072609959-0893c1a841d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1646072609959-0893c1a841d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 74,
+    "name": "FlexiGrip Stand",
+    "MRP": 22,
+    "discount": 9,
+    "categories": ["Lifestyle"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1651540589735-12cffa044899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1651540589735-12cffa044899?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 75,
+    "name": "EcoFlex Yoga",
+    "MRP": 397,
+    "discount": 136,
+    "categories": ["Lifestyle", "Appliances", "Home Décor"],
+    "for": ["Men", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 76,
+    "name": "SnapSync Stick",
+    "MRP": 427,
+    "discount": 50,
+    "categories": ["Electronics"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1653881143772-192556864811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1653881143772-192556864811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 77,
+    "name": "ProZoom Lens",
+    "MRP": 825,
+    "discount": 134,
+    "categories": ["Electronics", "Home Décor", "Lifestyle"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1649984563008-94fa9963370e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1649984563008-94fa9963370e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Amazon"
+  },
+  {
+    "id": 78,
+    "name": "ChillMate Bag",
+    "MRP": 446,
+    "discount": 181,
+    "categories": ["Electronics"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 79,
+    "name": "MobiLink Orgnzr",
+    "MRP": 192,
+    "discount": 75,
+    "categories": ["Electronics", "Electronics", "Home Décor"],
+    "for": ["Kids", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1566958769312-82cef41d19ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1566958769312-82cef41d19ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyMTR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 80,
+    "name": "AquaPure Filter",
+    "MRP": 737,
+    "discount": 178,
+    "categories": ["Lifestyle", "Lifestyle"],
+    "for": ["Elderly", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1519668963014-2308b08e5e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1519668963014-2308b08e5e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 81,
+    "name": "UltraLuxe Perf",
+    "MRP": 377,
+    "discount": 82,
+    "categories": ["Home Décor", "Lifestyle", "Electronics"],
+    "for": ["Men", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1641390321648-79df9fd22e9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1641390321648-79df9fd22e9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 82,
+    "name": "PureTone Earplg",
+    "MRP": 392,
+    "discount": 53,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1643902534396-96dd62c03e9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1643902534396-96dd62c03e9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 83,
+    "name": "FireGuard Detector",
+    "MRP": 731,
+    "discount": 85,
+    "categories": ["Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1560343090-f0409e92791a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1560343090-f0409e92791a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 84,
+    "name": "XtraWarm Blanket",
+    "MRP": 95,
+    "discount": 6,
+    "categories": ["Trending", "Home Décor", "Electronics"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1542038335240-86aea625b913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1542038335240-86aea625b913?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 85,
+    "name": "HydroGlow Serum",
+    "MRP": 108,
+    "discount": 19,
+    "categories": ["Lifestyle"],
+    "for": ["Women", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 86,
+    "name": "SolarSense Light",
+    "MRP": 598,
+    "discount": 232,
+    "categories": ["Electronics"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1694127803463-7b264de6e842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 87,
+    "name": "GigaSound Headphn",
+    "MRP": 283,
+    "discount": 115,
+    "categories": ["Electronics", "Electronics", "Trending"],
+    "for": ["Women", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1614159102350-fc3c9eedead5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1614159102350-fc3c9eedead5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 88,
+    "name": "MobiMate Car",
+    "MRP": 668,
+    "discount": 1,
+    "categories": ["Electronics", "Home Décor"],
+    "for": ["Kids", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1569770218135-bea267ed7e84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 89,
+    "name": "CleanSweep Dustpn",
+    "MRP": 197,
+    "discount": 82,
+    "categories": ["Trending", "Home Décor", "Appliances"],
+    "for": ["Friends", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1654648662327-5d4d32cf67bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1654648662327-5d4d32cf67bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 90,
+    "name": "MaxiPower Pack",
+    "MRP": 161,
+    "discount": 33,
+    "categories": ["Electronics"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652837345706-6a0f9c0148c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652837345706-6a0f9c0148c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 91,
+    "name": "NutriBlend Smooth",
+    "MRP": 337,
+    "discount": 129,
+    "categories": ["Home Décor"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1648688135643-2716ec8f4b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1648688135643-2716ec8f4b24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 92,
+    "name": "ZenFlame Candle",
+    "MRP": 13,
+    "discount": 6,
+    "categories": ["Electronics", "Lifestyle"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1670201202961-dce15b9e6939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1670201202961-dce15b9e6939?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 93,
+    "name": "TechGuard Screen",
+    "MRP": 735,
+    "discount": 314,
+    "categories": ["Electronics"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1627384113917-bc078ba7c385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1627384113917-bc078ba7c385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 94,
+    "name": "LuxoLuxury Watch",
+    "MRP": 678,
+    "discount": 266,
+    "categories": ["Electronics", "Home Décor"],
+    "for": ["Kids", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1587467063174-79c3979f396f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1587467063174-79c3979f396f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 95,
+    "name": "FlexiFlex Bands",
+    "MRP": 572,
+    "discount": 258,
+    "categories": ["Trending"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1650934759380-46ae135476cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1650934759380-46ae135476cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Amazon"
+  },
+  {
+    "id": 96,
+    "name": "SwiftHeat Blanket",
+    "MRP": 629,
+    "discount": 214,
+    "categories": ["Lifestyle", "Home Décor", "Lifestyle"],
+    "for": ["Friends", "Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636297461709-0812290a9dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636297461709-0812290a9dcc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 97,
+    "name": "BioClean Wipes",
+    "MRP": 235,
+    "discount": 36,
+    "categories": ["Lifestyle", "Lifestyle", "Trending"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 98,
+    "name": "SnapShare Printer",
+    "MRP": 854,
+    "discount": 301,
+    "categories": ["Home Décor", "Lifestyle"],
+    "for": ["Elderly", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1602574237777-fef4326708cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1602574237777-fef4326708cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 99,
+    "name": "ArtiCraft Set",
+    "MRP": 269,
+    "discount": 28,
+    "categories": ["Electronics", "Home Décor"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1608142172575-b7c5bb9bb98f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Dyson",
+    "portal": "Amazon"
+  },
+  {
+    "id": 100,
+    "name": "EcoFlame Logs",
+    "MRP": 506,
+    "discount": 229,
+    "categories": ["Electronics", "Appliances"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1508296695146-257a814070b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1508296695146-257a814070b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 101,
+    "name": "AirGlow Freshnr",
+    "MRP": 379,
+    "discount": 127,
+    "categories": ["Appliances", "Appliances"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1588959571205-4f53699d31d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1588959571205-4f53699d31d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 102,
+    "name": "ChillBliss Fan",
+    "MRP": 252,
+    "discount": 56,
+    "categories": ["Appliances", "Trending", "Electronics"],
+    "for": ["Friends", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1645075960701-573cbc669de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1645075960701-573cbc669de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Amazon"
+  },
+  {
+    "id": 103,
+    "name": "ProTranquil Aroma",
+    "MRP": 23,
+    "discount": 6,
+    "categories": ["Lifestyle", "Trending", "Home Décor"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1589820933732-5594c9d89076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1589820933732-5594c9d89076?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 104,
+    "name": "GloBrite Light",
+    "MRP": 735,
+    "discount": 75,
+    "categories": ["Lifestyle"],
+    "for": ["Kids", "Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1691480162735-9b91238080f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1691480162735-9b91238080f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 105,
+    "name": "PureWave Machine",
+    "MRP": 597,
+    "discount": 4,
+    "categories": ["Home Décor", "Appliances"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1636614597280-3dde89cbd6cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 106,
+    "name": "SolarMax Charger",
+    "MRP": 505,
+    "discount": 164,
+    "categories": ["Appliances"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1580437082423-4f0e58a2d413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1580437082423-4f0e58a2d413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Amazon"
+  },
+  {
+    "id": 107,
+    "name": "XtraDry Towels",
+    "MRP": 309,
+    "discount": 85,
+    "categories": ["Electronics", "Home Décor"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1614267861476-0d129972a0f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1614267861476-0d129972a0f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 108,
+    "name": "TechSync Cable",
+    "MRP": 277,
+    "discount": 135,
+    "categories": ["Lifestyle", "Lifestyle", "Electronics"],
+    "for": ["Men"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1658126392415-811bf97e5d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1658126392415-811bf97e5d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Men",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 109,
+    "name": "MobiGuard Case",
+    "MRP": 627,
+    "discount": 153,
+    "categories": ["Lifestyle"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1604364184152-f3bd80470c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1604364184152-f3bd80470c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Amazon"
+  },
+  {
+    "id": 110,
+    "name": "EcoPure Air",
+    "MRP": 553,
+    "discount": 77,
+    "categories": ["Electronics"],
+    "for": ["Kids", "Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1600084788785-1b84363c5ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1600084788785-1b84363c5ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 111,
+    "name": "NutriMate Meal",
+    "MRP": 665,
+    "discount": 152,
+    "categories": ["Appliances", "Appliances"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1632205357771-cd24d88e2f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1632205357771-cd24d88e2f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 112,
+    "name": "MobiSync Holder",
+    "MRP": 394,
+    "discount": 62,
+    "categories": ["Trending"],
+    "for": ["Women"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1554948419-1939083b12cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1554948419-1939083b12cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUyNjd8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 1,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 113,
+    "name": "FireSense Alarm",
+    "MRP": 130,
+    "discount": 19,
+    "categories": ["Electronics", "Electronics", "Home Décor"],
+    "for": ["Women", "Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1627384113890-8f8893f2411a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1627384113890-8f8893f2411a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "Levi's",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 114,
+    "name": "SwiftWave Router",
+    "MRP": 760,
+    "discount": 66,
+    "categories": ["Electronics"],
+    "for": ["Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1688789645479-955d294b419f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1688789645479-955d294b419f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 115,
+    "name": "ProGlide Razor",
+    "MRP": 633,
+    "discount": 119,
+    "categories": ["Home Décor", "Electronics", "Trending"],
+    "for": ["Women", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1508771400123-e194ad75c0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=400",
+      "regular": "https://images.unsplash.com/photo-1508771400123-e194ad75c0e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjUzMDB8&ixlib=rb-4.0.3&q=80&w=1080"
+    },
+    "previewType": 2,
+    "primaryFor": "Women",
+    "src": "https://www.amazon.com",
+    "brand": "H&M",
+    "portal": "Amazon"
+  },
+  {
+    "id": 116,
+    "name": "LuxoLink Smart",
+    "MRP": 700,
+    "discount": 259,
+    "categories": ["Electronics", "Electronics", "Lifestyle"],
+    "for": ["Friends", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1652749141477-9988a08f43b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Amazon"
+  },
+  {
+    "id": 117,
+    "name": "ZenZone Pillow",
+    "MRP": 404,
+    "discount": 14,
+    "categories": ["Electronics", "Lifestyle"],
+    "for": ["Women", "Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198735660-e39ea93f5c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Tata Neu"
+  },
+  {
+    "id": 118,
+    "name": "CleanWave Cloths",
+    "MRP": 99,
+    "discount": 19,
+    "categories": ["Appliances", "Lifestyle"],
+    "for": ["Elderly"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1499096382193-ebb232527fee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1499096382193-ebb232527fee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Elderly",
+    "src": "https://www.amazon.com",
+    "brand": "GAP",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 119,
+    "name": "FlexiGuard Car",
+    "MRP": 162,
+    "discount": 7,
+    "categories": ["Trending", "Appliances"],
+    "for": ["Kids"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1653620199505-85e2e1f20b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Kids",
+    "src": "https://www.amazon.com",
+    "brand": "Bajaj",
+    "portal": "Flipkart"
+  },
+  {
+    "id": 120,
+    "name": "SnapMate Ring",
+    "MRP": 884,
+    "discount": 287,
+    "categories": ["Appliances", "Home Décor"],
+    "for": ["Friends"],
+    "currency": "USD",
+    "currencySymbol": "$",
+    "image": {
+      "preview": "https://images.unsplash.com/photo-1629198745421-a7b409ca6d6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=200",
+      "regular": "https://images.unsplash.com/photo-1629198745421-a7b409ca6d6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NDY5OTN8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNjQ1MDR8&ixlib=rb-4.0.3&q=80&w=400"
+    },
+    "previewType": 0,
+    "primaryFor": "Friends",
+    "src": "https://www.amazon.com",
+    "brand": "Macy's",
+    "portal": "Tata Neu"
+  }
+]

@@ -29,3 +29,4 @@ export const ForCategoryIcon: Record<string, string> = {
 };
 
 export const PRICE_SLIDER_STEPS = 5;
+export const RECOMMEND_SIMILAR_THRESHOLD_COUNT = 12;
