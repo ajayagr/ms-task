@@ -106,7 +106,7 @@ function ProductFilters({
       {showHamburger && (
         <div className="mb-1">
           <button
-            className="d-flex justify-center align-center no-style"
+            className="d-flex justify-center align-center no-style show-filter"
             onClick={toggleFilters}
           >
             <HamburgerIcon width={32} height={32} />{" "}
@@ -123,7 +123,7 @@ function ProductFilters({
       >
         <div className="d-flex flex-col">
           <label
-            className="text-uppercase text-grey mb-1"
+            className="text-uppercase text-gray mb-1"
             htmlFor="trending-selection"
           >
             Select Category
@@ -144,7 +144,7 @@ function ProductFilters({
           </div>
         </div>
         <div className="mw-100">
-          <p className="text-uppercase text-grey">Gift for</p>
+          <p className="text-uppercase text-gray">Gift for</p>
           <div role="radiogroup" className="d-flex flex-wrap">
             {forCategories.map((category: string) => {
               const categoryId = `productFor-${category}`;
@@ -188,7 +188,7 @@ function ProductFilters({
           </div>
         </div>
         <div>
-          <label className="text-uppercase text-grey" htmlFor="priceSelection">
+          <label className="text-uppercase text-gray" htmlFor="priceSelection">
             Set Price
           </label>
           <br />

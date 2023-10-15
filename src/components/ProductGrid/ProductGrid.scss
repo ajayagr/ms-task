@@ -2,7 +2,7 @@
 
 .product-grid {
   display: flex;
-  background: #f0f0f0;
+  background: $bg-dark-theme;
   flex-direction: column;
 
   .grid-container {
@@ -62,5 +62,10 @@
 @media screen and (min-width: $tablet-min-width) {
   .product-grid .grid-container {
     margin-left: 0px;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .product-grid {
+    background-color: $bg-light-theme;
   }
 }

@@ -44,8 +44,8 @@
   color: white;
 }
 
-.text-grey {
-  color: grey;
+.text-gray {
+  color: darkgray;
 }
 
 .text-sm {
@@ -201,5 +201,9 @@ button {
 
   button {
     background-color: #f9f9f9;
+  }
+
+  .text-gray {
+    color: gray;
   }
 }
