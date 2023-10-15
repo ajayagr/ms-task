@@ -39,7 +39,9 @@ function ProductDetail({
               <></>
             )}
           </p>
-          <p className="text-success">{product.brand}</p>
+          <p className="text-success">
+            {product.brand} at {product.portal}
+          </p>
         </div>
       </a>
       <div className="more">

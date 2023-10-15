@@ -63,12 +63,19 @@ function Product({
               {discountPercentage > 0 ? ` (-${discountPercentage}%)` : ""}
             </span>
           </p>
+          {singleRow ? (
+            <p className="text-success">
+              {product.brand} at {product.portal}
+            </p>
+          ) : (
+            <></>
+          )}
         </div>
       </a>
       <p hidden id={linkDescriptionId}>
         Link to {product.name}
       </p>
-      {showDetail && (
+      {showDetail ? (
         <Tooltip
           className="product-detail"
           anchorSelect={`#${linkDescriptionId}-link`}
@@ -83,6 +90,8 @@ function Product({
             handleSearchFor={handleSearchFor}
           />
         </Tooltip>
+      ) : (
+        <></>
       )}
     </div>
   );

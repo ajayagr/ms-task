@@ -25,7 +25,7 @@
     display: grid;
     grid-auto-flow: column dense;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-template-rows: 270px;
+    grid-template-rows: 350px;
     grid-auto-rows: 0;
     grid-auto-columns: minmax(180px, 1fr);
     row-gap: 0;
