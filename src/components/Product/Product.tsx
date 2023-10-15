@@ -52,7 +52,11 @@ function Product({
         onFocus={handleProductFocus}
       >
         <div className="d-flex img-container">
-          <img src={`/assets/images/${imgName}.jpg`} alt={product.name} />
+          <img
+            src={`/assets/images/${imgName}.jpg`}
+            alt={product.name}
+            loading="lazy"
+          />
         </div>
         <div className="product-info">
           <p>{product.name}</p>
