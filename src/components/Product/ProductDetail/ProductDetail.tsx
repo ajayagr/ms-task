@@ -3,15 +3,10 @@ import "./ProductDetail.scss";
 
 export interface IProductDetailProps {
   product: TProduct;
-  imgName: string;
   handleSearchFor: (target: string) => void;
 }
 
-function ProductDetail({
-  product,
-  imgName,
-  handleSearchFor,
-}: IProductDetailProps) {
+function ProductDetail({ product, handleSearchFor }: IProductDetailProps) {
   const labelDescriptionId = `product-${product.id}`;
   return (
     <div className="product-detail">
@@ -22,11 +17,7 @@ function ProductDetail({
         tabIndex={-1}
       >
         <div className="img-container">
-          <img
-            src={`/assets/images/${imgName}.jpg`}
-            alt={product.name}
-            loading="lazy"
-          />
+          <img src={product.image.regular} alt={product.name} loading="lazy" />
         </div>
         <div className="product-info">
           <p>{product.name}</p>

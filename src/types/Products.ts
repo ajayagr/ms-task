@@ -7,7 +7,10 @@ export type TProduct = {
   discount: number;
   categories: string[];
   for: string[];
-  imageSrc: string;
+  image: {
+    preview: string;
+    regular: string;
+  };
   primaryFor: string;
   currency: string;
   currencySymbol: string;

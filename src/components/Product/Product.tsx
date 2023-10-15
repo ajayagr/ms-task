@@ -19,13 +19,10 @@ function Product({
   handleSearchFor,
 }: IProductProps) {
   let itemClass = "item";
-  let imgName = "img-normal";
   if (product.previewType === PreviewType.tall) {
     itemClass = "item-tall";
-    imgName = "img-tall";
   } else if (product.previewType === PreviewType.wide) {
     itemClass = "item-wide";
-    imgName = "img-wide";
   }
   const linkDescriptionId = `product-${product.id}`;
   const discountPercentage = Math.round((product.discount / product.MRP) * 100);
@@ -52,11 +49,7 @@ function Product({
         onFocus={handleProductFocus}
       >
         <div className="d-flex img-container">
-          <img
-            src={`/assets/images/${imgName}.jpg`}
-            alt={product.name}
-            loading="lazy"
-          />
+          <img src={product.image.preview} alt={product.name} loading="lazy" />
         </div>
         <div className="product-info">
           <p>{product.name}</p>
@@ -88,11 +81,7 @@ function Product({
           }
           clickable
         >
-          <ProductDetail
-            product={product}
-            imgName={imgName}
-            handleSearchFor={handleSearchFor}
-          />
+          <ProductDetail product={product} handleSearchFor={handleSearchFor} />
         </Tooltip>
       ) : (
         <></>
