@@ -19,14 +19,16 @@ function useCarousel(ref: RefObject<HTMLElement>, slideOffset?: number) {
   const scrollToStart = () => {
     if (ref.current) {
       ref.current.scrollTo({ left: 0, top: 0, behavior: "smooth" });
-      console.log(ref.current.scrollLeft, ref.current.scrollTop);
     }
   };
 
   const scrollToEnd = () => {
     if (ref.current) {
-      ref.current.scrollLeft = ref.current.scrollWidth;
-      ref.current.scrollTop = ref.current.scrollHeight;
+      ref.current.scrollTo({
+        left: ref.current.scrollWidth,
+        top: ref.current.scrollHeight,
+        behavior: "smooth",
+      });
     }
   };
 

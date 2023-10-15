@@ -12,6 +12,10 @@
     font-size: large;
     width: 60px;
     height: 50px;
+
+    &.hidden {
+      visibility: hidden;
+    }
   }
 
   .content {

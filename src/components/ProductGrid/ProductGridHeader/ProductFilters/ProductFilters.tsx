@@ -37,6 +37,8 @@ function ProductFilters({
 
   useEffect(() => {
     setSelectedForOption(filters?.forCategory ?? "");
+    setSelectedCategoryOption(filters?.category ?? "");
+    setSelectedPrice(filters?.price ?? 0);
   }, [filters]);
 
   useEffect(() => {

@@ -23,16 +23,21 @@ function ProductGrid({ products, getMoreProduct }: IProductGridProps) {
     useProductGrid(products);
 
   useEffect(() => {
+    resetGridScroll();
     updateGridActions();
-    carouselRef.current?.resetScroll();
   }, [products]);
 
   const updateGridActions = () => {
     setTimeout(() => carouselRef.current?.triggerGridUpdate(), 1000);
   };
 
+  const resetGridScroll = () => {
+    carouselRef.current?.resetScroll();
+  };
+
   const handleFilterUpdate = (newFilters: Partial<TProductFilters>) => {
     updateFilters(newFilters);
+    resetGridScroll();
     updateGridActions();
   };
 
@@ -42,8 +47,8 @@ function ProductGrid({ products, getMoreProduct }: IProductGridProps) {
 
   const handleFilterReset = () => {
     resetFilters();
+    resetGridScroll();
     updateGridActions();
-    carouselRef.current?.resetScroll();
   };
 
   return (
@@ -55,6 +60,7 @@ function ProductGrid({ products, getMoreProduct }: IProductGridProps) {
       />
       <Carousel
         carouselContentRef={gridRef}
+        hideActions={filteredProducts.length === 0}
         slideOffset={140}
         swipeable={true}
         ref={carouselRef}
@@ -79,7 +85,11 @@ function ProductGrid({ products, getMoreProduct }: IProductGridProps) {
                       key={product.id}
                       product={product}
                       showDetail={!isSmallScreen}
-                      singleRow={isMobileScreen || filteredProducts.length < 10}
+                      singleRow={
+                        isMobileScreen ||
+                        filteredProducts.length <
+                          RECOMMEND_SIMILAR_THRESHOLD_COUNT
+                      }
                       handleSearchFor={handleSearchFor}
                     />
                   ))}

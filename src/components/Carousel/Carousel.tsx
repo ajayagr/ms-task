@@ -11,6 +11,7 @@ import { useSwipeable } from "react-swipeable";
 
 interface ICarouselProps extends PropsWithChildren {
   carouselContentRef: RefObject<HTMLElement>;
+  hideActions?: boolean;
   swipeable?: boolean;
   slideOffset?: number;
 }
@@ -21,7 +22,8 @@ export type CarouselRef = {
 };
 
 const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
-  const { carouselContentRef, slideOffset, swipeable, children } = props;
+  const { carouselContentRef, hideActions, slideOffset, swipeable, children } =
+    props;
   const {
     previousActionDisabled,
     nextActionDisabled,
@@ -50,7 +52,7 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
 
   return (
     <div className="carousel-container">
-      <div className="action">
+      <div className={`action ${hideActions ? "hidden" : ""}`}>
         <button
           disabled={previousActionDisabled}
           aria-description="Previous products"
@@ -62,7 +64,7 @@ const Carousel = forwardRef<CarouselRef, ICarouselProps>((props, ref) => {
       <div {...swipeHandlers} className="content">
         {children}
       </div>
-      <div className="action">
+      <div className={`action ${hideActions ? "hidden" : ""}`}>
         <button
           disabled={nextActionDisabled}
           aria-description="Next products"
