@@ -76,7 +76,7 @@ function Product({
         <Tooltip
           className="product-detail"
           anchorSelect={`#${linkDescriptionId}-link`}
-          place={product.previewType === PreviewType.tall ? "left" : "right"}
+          place={"right"}
           clickable
         >
           <ProductDetail product={product} handleSearchFor={handleSearchFor} />
