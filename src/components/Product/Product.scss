@@ -40,10 +40,6 @@
     &-single-row {
       grid-row: 1;
       grid-column-end: span 1;
-
-      a .img-container {
-        max-height: calc(100% - 5rem);
-      }
     }
   }
 

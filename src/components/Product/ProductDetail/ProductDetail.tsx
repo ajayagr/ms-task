@@ -35,7 +35,7 @@ function ProductDetail({ product, handleSearchFor }: IProductDetailProps) {
             )}
           </p>
           <p className="text-success">
-            {product.brand} at {product.portal}
+            From {product.brand} at {product.portal}
           </p>
         </div>
       </a>

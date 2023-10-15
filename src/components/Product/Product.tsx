@@ -60,7 +60,7 @@ function Product({
               {discountPercentage > 0 ? ` (-${discountPercentage}%)` : ""}
             </span>
           </p>
-          {singleRow ? (
+          {singleRow && !showDetail ? (
             <p className="text-success">
               {product.brand} at {product.portal}
             </p>
