@@ -35,6 +35,10 @@
     &-wide {
       grid-column-end: span 2;
     }
+
+    &-single-row {
+      grid-row: 1;
+    }
   }
 
   .product-detail {

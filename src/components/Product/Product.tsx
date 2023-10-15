@@ -8,10 +8,16 @@ import { isElementCompletelyVisible } from "../../utils/domUtils";
 export interface IProductProps {
   product: TProduct;
   showDetail: boolean;
+  singleRow?: boolean;
   handleSearchFor: (target: string) => void;
 }
 
-function Product({ product, showDetail, handleSearchFor }: IProductProps) {
+function Product({
+  product,
+  showDetail,
+  singleRow,
+  handleSearchFor,
+}: IProductProps) {
   let itemClass = "item";
   let imgName = "img-normal";
   if (product.previewType === PreviewType.tall) {
@@ -34,7 +40,11 @@ function Product({ product, showDetail, handleSearchFor }: IProductProps) {
   };
 
   return (
-    <div className={`product tile ${itemClass}`}>
+    <div
+      className={`product tile ${itemClass} ${
+        singleRow ? "item-single-row" : ""
+      }`}
+    >
       <a
         href={product.src}
         aria-labelledby={linkDescriptionId}
@@ -58,19 +68,22 @@ function Product({ product, showDetail, handleSearchFor }: IProductProps) {
       <p hidden id={linkDescriptionId}>
         Link to {product.name}
       </p>
-      <Tooltip
-        className="product-detail"
-        anchorSelect={`#${linkDescriptionId}-link`}
-        place={product.previewType === PreviewType.tall ? "left" : "top-start"}
-        hidden={!showDetail}
-        clickable
-      >
-        <ProductDetail
-          product={product}
-          imgName={imgName}
-          handleSearchFor={handleSearchFor}
-        />
-      </Tooltip>
+      {showDetail && (
+        <Tooltip
+          className="product-detail"
+          anchorSelect={`#${linkDescriptionId}-link`}
+          place={
+            product.previewType === PreviewType.tall ? "left" : "top-start"
+          }
+          clickable
+        >
+          <ProductDetail
+            product={product}
+            imgName={imgName}
+            handleSearchFor={handleSearchFor}
+          />
+        </Tooltip>
+      )}
     </div>
   );
 }

@@ -17,7 +17,7 @@ interface IProductGridProps {
 function ProductGrid({ products }: IProductGridProps) {
   const gridRef = useRef<HTMLDivElement>(null);
   const carouselRef = useRef<CarouselRef>(null);
-  const isSmallScreen = useContext(ViewportContext).isSmallScreen;
+  const { isSmallScreen, isMobileScreen } = useContext(ViewportContext);
   const { filteredProducts, filters, updateFilters } = useProductGrid(products);
 
   const handleFilterUpdate = (newFilters: Partial<TProductFilters>) => {
@@ -58,6 +58,7 @@ function ProductGrid({ products }: IProductGridProps) {
                     key={product.id}
                     product={product}
                     showDetail={!isSmallScreen}
+                    singleRow={isMobileScreen}
                     handleSearchFor={handleSearchFor}
                   />
                 ))}

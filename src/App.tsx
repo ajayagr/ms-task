@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import ProductGrid from "./components/ProductGrid/ProductGrid";
 import { TProduct } from "./types/Products";
-import { isSmallScreen } from "./utils/domUtils";
+import { isMobileScreen, isSmallScreen } from "./utils/domUtils";
 import { ViewportContext } from "./context";
 
 function App() {
   const [products, setProducts] = useState<TProduct[]>([]);
   const [error, setError] = useState(false);
   const [smallScreen, setSmallScreen] = useState(isSmallScreen());
+  const [mobileScreen, setMobileScreen] = useState(isMobileScreen());
 
   useEffect(() => {
     (async () => {
@@ -22,13 +23,16 @@ function App() {
     })();
     const handleWindowResize = () => {
       setSmallScreen(isSmallScreen());
+      setMobileScreen(isMobileScreen());
     };
     window.addEventListener("resize", handleWindowResize);
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
   return (
-    <ViewportContext.Provider value={{ isSmallScreen: smallScreen }}>
+    <ViewportContext.Provider
+      value={{ isSmallScreen: smallScreen, isMobileScreen: mobileScreen }}
+    >
       <main>
         {products.length ? <ProductGrid products={products} /> : <></>}
         {error ? (

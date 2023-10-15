@@ -25,13 +25,14 @@
     display: grid;
     grid-auto-flow: column dense;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-template-rows: 275px;
+    grid-template-rows: 270px;
     grid-auto-rows: 0;
     grid-auto-columns: minmax(180px, 1fr);
     row-gap: 0;
     column-gap: 8px;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    transition: all 1s linear;
   }
 }
 
@@ -42,7 +43,7 @@
     }
 
     .items {
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
       grid-template-rows: repeat(3, minmax(auto, 200px));
       grid-auto-columns: minmax(180px, 1fr);
       row-gap: 4px;

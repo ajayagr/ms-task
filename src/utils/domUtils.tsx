@@ -1,4 +1,4 @@
-import { TABLET_MIN_WIDTH } from "../constants/domConstants";
+import { MOBILE_MAX_WIDTH, TABLET_MIN_WIDTH } from "../constants/domConstants";
 
 export function isElementCompletelyVisible(element: HTMLElement) {
   // Get the element's position and dimensions
@@ -21,8 +21,9 @@ export function isElementCompletelyVisible(element: HTMLElement) {
 }
 
 export function isSmallScreen() {
-  if (window.innerWidth < TABLET_MIN_WIDTH) {
-    return true;
-  }
-  return false;
+  return window.innerWidth < TABLET_MIN_WIDTH;
+}
+
+export function isMobileScreen() {
+  return window.innerWidth <= MOBILE_MAX_WIDTH;
 }
