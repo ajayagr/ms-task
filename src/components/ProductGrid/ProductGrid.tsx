@@ -52,13 +52,18 @@ function ProductGrid({ products }: IProductGridProps) {
               showing {filteredProducts.length} of {products.length} products
             </p>
             {filteredProducts.length > 0 ? (
-              <div ref={gridRef} className="items">
+              <div
+                ref={gridRef}
+                className={`items ${
+                  filteredProducts.length < 10 ? "single-row" : ""
+                }`}
+              >
                 {filteredProducts.map((product) => (
                   <Product
                     key={product.id}
                     product={product}
                     showDetail={!isSmallScreen}
-                    singleRow={isMobileScreen}
+                    singleRow={isMobileScreen || filteredProducts.length < 10}
                     handleSearchFor={handleSearchFor}
                   />
                 ))}
